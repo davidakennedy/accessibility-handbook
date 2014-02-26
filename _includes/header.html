@@ -4,22 +4,5 @@
       <img class="logo" src="{{site.logourl}}" alt="{{site.logoalt}}">
     {% endif %}
     <h1><a class="title-link" href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-    <a href="#menu" class="menu-link">&#9776;</a>
-    <nav id="menu" class="panel" role="navigation">
-      <ul>
-        {% for link in site.navigation %}
-          {% if link.internal == true %}
-            <li><a href="{{ site.baseurl }}/{{ link.url }}">{{ link.text }}</a></li>
-          {% else %}
-            <li><a href="{{ link.url }}">{{ link.text }}</a></li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-        <ul>
-          {% for cat in site.categories %}
-            <li>{{ cat[0] }}</li>
-          {% endfor %}
-        </ul>
-    </nav>
   </div>
 </header>

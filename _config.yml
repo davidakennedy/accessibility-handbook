@@ -26,12 +26,24 @@ logoalt:
 # Navigation
 # List links that should appear in the site sidebar here
 navigation:
-- text: Home
+- text: Designing for Accessibility
   url: index.html
   internal: true
-- text: Example Page
+- text: Content Formats
   url: example_page.html
   internal: true
-- text: DOCter Repo
+- text: The Basics
+  url: https://github.com/cfpb/DOCter
+  internal: false
+- text: Document Structure
+  url: index.html
+  internal: true
+- text: User Interactions
+  url: example_page.html
+  internal: true
+- text: Non-Textual Content
+  url: https://github.com/cfpb/DOCter
+  internal: false
+- text: Appendix
   url: https://github.com/cfpb/DOCter
   internal: false
