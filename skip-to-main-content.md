@@ -23,7 +23,7 @@ The text is hidden offscreen in a manner that allows screen reader users to inte
 
 ### Source Code
 
-``` {.code}
+```
 a.skip-main {
     left:-999px;
     position:absolute;

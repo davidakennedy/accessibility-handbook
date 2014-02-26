@@ -24,7 +24,7 @@ It is important to use list elements when denoting a list of items. When sighted
 
 ### Source Code
 
-``` {.code}
+```
 * milk
 * bread
 * butter
@@ -45,7 +45,7 @@ However, when a screen reader user heard this, they will hear "star milk, star b
 
 ### Source Code
 
-``` {.code}
+```
 <ul>
   <li>milk</li>
   <li>bread</li>

@@ -30,7 +30,7 @@ At its heart, a link connects two Web resources. It has two ends with an explici
 
 ### Source Code
 
-``` {.code}
+```
 <a href="http://www.ncsu.edu">NC State University</a>
 ```
 
@@ -51,7 +51,7 @@ The most common example of using links for other purposes is using JavaScript to
 
 ### Source Code
 
-``` {.code}
+```
 <a onclick="alert('something');">Do something</a>
 ```
 
@@ -74,7 +74,7 @@ In this instance the hash character is used to tell the browser to go to an unna
 
 ### Source Code
 
-``` {.code}
+```
 <a href="#" onclick="alert('something');">Do something</a>
 ```
 
@@ -96,7 +96,7 @@ In this instance, a javascript action is fired when the link is clicked in place
 
 ### Source Code
 
-``` {.code}
+```
 <a href="javascript:alert('something');">Do something</a>
 ```
 
@@ -118,7 +118,7 @@ This implementation borders on comical. An anchor element is chosen because it w
 
 ### Source Code
 
-``` {.code}
+```
 <a href="javascript:void(0)" onclick="alert('something');">Do something</a>
 ```
 
@@ -141,7 +141,7 @@ If you want to have the user click on an item within a page and have some action
 
 ### Source Code
 
-``` {.code}
+```
 <input type="button" value="Do Something" onClick="alert('something');">
 ```
 
@@ -154,7 +154,7 @@ This instance is identical to the previous one except it uses CSS to customize t
 
 ### Source Code
 
-``` {.code}
+```
 <style>
 .something-button {
   border-top: 2px solid #e00;
@@ -188,7 +188,7 @@ In this case it starts with a basic link which takes you to another page where t
 
 ### Source Code
 
-``` {.code}
+```
 <p id="something" ><a href="something.html">Do Something</a></p>
 <script type="text/javascript">
   (function(){

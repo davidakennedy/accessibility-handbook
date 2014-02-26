@@ -27,7 +27,7 @@ The link text should be unique among all of the links on the page, or alternativ
 
 ### Source Code
 
-``` {.code}
+```
 .offscreen {
 position:absolute;
 left:-999px;
@@ -50,7 +50,7 @@ This demonstrates the correct implementation where the non-unique or non-fully-d
 
 ### Source Code
 
-``` {.code}
+```
 <p>How should you display the parts of a form that are read-only? There are three main implementations that I have seen, and unfortunately the accessible version is the one I’ve seen used the least. <a href="file.html">[Read more...]</a></p>
 ```
 
@@ -65,7 +65,7 @@ This demonstrates the **incorrect** implementation where the non-unique or non-f
 
 ### Source Code
 
-``` {.code}
+```
 <p>How should you display the parts of a form that are read-only? There are three main implementations that I have seen, and unfortunately the accessible version is the one I’ve seen used the least.</p>
 <p><a href="file.html">[Read more...]</a></p>
 ```
@@ -114,7 +114,7 @@ This demonstrates the **correct** implementation where the link text is paired w
 
 ### Source Code
 
-``` {.code}
+```
 <ul>
   <li>Annual Report 2005-2006
   <ul>

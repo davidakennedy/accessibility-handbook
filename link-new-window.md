@@ -36,7 +36,7 @@ There are a number of solutions to this problem.
 
 ### Source Code
 
-``` {.code}
+```
 <a href="http://accessibility.oit.ncsu.edu" target="_blank">NC State IT Accessibility (new window)</a>
 ```
 
@@ -49,7 +49,7 @@ There are a number of solutions to this problem.
 
 ### Source Code
 
-``` {.code}
+```
 <a href="http://accessibility.oit.ncsu.edu" target="_blank">NC State IT Accessibility <img src="images/new-window.jpg" alt="opens in new window"></a>
 ```
 
@@ -62,7 +62,7 @@ There are a number of solutions to this problem.
 
 ### Source Code
 
-``` {.code}
+```
 a.ncsu-a11y-link-new-window img {
     border: 0 none;
 }
@@ -101,7 +101,7 @@ a.ncsu-a11y-link-new-window:hover span, a.ncsu-a11y-link-new-window:focus span, 
 
 ### Source Code
 
-``` {.code}
+```
 <a href="http://accessibility.oit.ncsu.edu" target="_blank">NC State IT Accessibility</a>
 ```
 

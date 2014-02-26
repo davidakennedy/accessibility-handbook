@@ -17,7 +17,7 @@ Correct Implementation
 
 ### Source Code
 
-``` {.code}
+```
 ```
 
 ### Implementation
@@ -29,7 +29,7 @@ Incorrect Implementation
 
 ### Source Code
 
-``` {.code}
+```
 ```
 
 ### Implementation
