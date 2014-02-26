@@ -23,7 +23,7 @@ In general you do not want to remove the underline formatting from links. Underl
 
 ### Source Code
 
-``` {.code}
+```
 a:link {text-decoration:none;}
 a:visited {text-decoration:none;}
 ```

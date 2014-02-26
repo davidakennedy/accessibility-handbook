@@ -26,7 +26,7 @@ The first level of structure to add to a page is headings. Headings are used to 
 
 This both creates a semantic structure for your page and it allows screen reader users to be able to navigate by heading and jump from section to section.
 
-``` {.code}
+```
 <h1>Our News Site</h1>
   <h2>World News</h2>
   <h2>National News</h2>
@@ -44,7 +44,7 @@ This both creates a semantic structure for your page and it allows screen reader
 
 If you don't like the way the default heading look, and most of us don't, just use CSS to style the headings.
 
-``` {.code}
+```
 <style>
   h1 {font-size:1.4em; font-weight:bold; color:#000;}
   h2 {font-size:1.2em; font-weight:bold; color:#222;}
@@ -79,7 +79,7 @@ General Rules for Applying Headings
 
 Do not use stylings as the only way to communicate what your headings are. This works for visual users, but screen reader users will not be able to easily divide your page into logical structures.
 
-``` {.code}
+```
 <style>
   .really-big {font-size:1.4em; font-weight:bold; color:#000; margin:0;}
   .big {font-size:1.2em; font-weight:bold; color:#222; margin:0 2em;}

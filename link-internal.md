@@ -24,7 +24,7 @@ If you want to make a link go to another point on the same page there are two wa
 
 ### Source Code
 
-``` {.code}
+```
 <a href="#services">View all of our services</a>
 <p>...</p>
 <h2 id="services">Our Service</h2>
@@ -46,7 +46,7 @@ The name attribute has been deprecated in HTML5 and should not be used.
 
 ### Source Code
 
-``` {.code}
+```
 <a href="#services">View all of our services</a>
 <p>...</p>
 <a name="services"></a>

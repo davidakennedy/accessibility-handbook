@@ -22,7 +22,7 @@ Page Contents
 
 ### Source Code
 
-``` {.code}
+```
 <p>View examples, watch tutorials, download tools, and check your Web site's  accessibility at the <a href="http://accessibility.oit.ncsu.edu">NC  State IT Accessibility Web site</a></p>
 ```
 
@@ -33,7 +33,7 @@ View examples, watch tutorials, download tools, and check your Web site’s acce
 
 ### Source Code
 
-``` {.code}
+```
 <p><a href="http://accessibility.oit.ncsu.edu">View examples, watch tutorials, download tools, and check your Web site's accessibility at the NC State IT  Accessibility Web site</a></p>
 ```
 
