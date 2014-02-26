@@ -1,27 +1,18 @@
-Page Contents {#page-contents-heading}
+Page Contents
 -------------
 
--   [![Good
-    Technique](images/checkmark-small.png "Good Technique")Having a skip
-    to main content link appear when it receives keyboard focus](#1)
+-   [![Good Technique](images/checkmark-small.png "Good Technique")Having a skip to main content link appear when it receives keyboard focus](#1)
 
-When keyboard-only users interact with your site they use the tab key to
-jump from link to link. If you have a lot of links at the first of your
-page in your header or in a menu, they must tab through those every time
-they come to a new page just to get to the main content. Providing a
-skip to main content link allows them to easily bypass this.
+When keyboard-only users interact with your site they use the tab key to jump from link to link. If you have a lot of links at the first of your page in your header or in a menu, they must tab through those every time they come to a new page just to get to the main content. Providing a skip to main content link allows them to easily bypass this.
 
-Note: These techniques are also sometimes referred to as "skip
-navigation links".
+Note: These techniques are also sometimes referred to as "skip navigation links".
 
-Here is a demonstration of what keyboard-only users must do to navigate
-a page without a skip to main content link.
+Here is a demonstration of what keyboard-only users must do to navigate a page without a skip to main content link.
 
 ![Good Technique](images/checkmark-small.png "Good Technique")Having a skip to main content link appear when it receives keyboard focus
 ---------------------------------------------------------------------------------------------------------------------------------------
 
-The text is hidden offscreen in a manner that allows screen reader users
-to interact with it.
+The text is hidden offscreen in a manner that allows screen reader users to interact with it.
 
 ### Source Code
 
@@ -70,6 +61,4 @@ a.skip-main:focus, a.skip-main:active {
 
 ### Implementation
 
-View the [skip to main content
-implementation](http://accessibility.oit.ncsu.edu/training/accessibility-handbook/skip-to-main-content-keyboard-accessible.html)
-on another page.
+View the [skip to main content implementation](http://accessibility.oit.ncsu.edu/training/accessibility-handbook/skip-to-main-content-keyboard-accessible.html) on another page.

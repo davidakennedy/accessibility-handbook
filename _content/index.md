@@ -1,10 +1,6 @@
-This handbook is designed to give Web developers a way to approach
-designing accessible Web pages. Instead of simply being a checklist, it
-will guide you through ways of thinking about Web design in logical
-divisions.
+This handbook is designed to give Web developers a way to approach designing accessible Web pages. Instead of simply being a checklist, it will guide you through ways of thinking about Web design in logical divisions.
 
-This is a work in progress. If something is unclear to you or if you
-have suggestions, please [email Greg Kraus](mailto:gdkraus@ncsu.edu).
+This is a work in progress. If something is unclear to you or if you have suggestions, please [email Greg Kraus](mailto:gdkraus@ncsu.edu).
 
 Step 1: Understand the nature of what is required to design accessibly
 ----------------------------------------------------------------------
@@ -25,8 +21,7 @@ Step 2: Choose the most appropriate technology and document format to ensure the
 -   [HTML](technology-html.html)
 -   [PDF](technology-pdf.html)
 -   [Office Documents](technology-office.html)
--   [Rich Media - Multimedia, Flash, Silverlight,
-    Java](technology-rich-media.html)
+-   [Rich Media - Multimedia, Flash, Silverlight, Java](technology-rich-media.html)
 
 Step 3: Start with some of the basics that often get overlooked
 ---------------------------------------------------------------

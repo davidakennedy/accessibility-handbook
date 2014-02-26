@@ -1,38 +1,23 @@
-ARIA Checkbox Tutorial Alternative Text Captioning Appendix A - Testing
-Tools
+ARIA Checkbox Tutorial Alternative Text Captioning Appendix A - Testing Tools
 
-[![previous](images/left-arrow.png)Valid
-Code](http://accessibility.oit.ncsu.edu/training/accessibility-handbook/valid-code.html)
+[![previous](images/left-arrow.png)Valid Code](http://accessibility.oit.ncsu.edu/training/accessibility-handbook/valid-code.html)
 
-[ARIA
-Landmarks![next](images/right-arrow.png)](http://accessibility.oit.ncsu.edu/training/accessibility-handbook/aria-landmarks.html)
+[ARIA Landmarks![next](images/right-arrow.png)](http://accessibility.oit.ncsu.edu/training/accessibility-handbook/aria-landmarks.html)
 
-Page Contents {#page-contents-heading}
+Page Contents
 -------------
 
--   [![Good Technique](images/checkmark-small.png "Good Technique")Use
-    headings to define the page structure](#1)
--   [![Good Technique](images/checkmark-small.png "Good Technique")Use
-    CSS to style the headings](#2)
--   [![Good
-    Technique](images/checkmark-small.png "Good Technique")General Rules
-    for Applying Headings](#3)
--   [![Bad Technique](images/x-small.png "Bad Technique")Only using
-    styles to denote headings](#4)
+-   [![Good Technique](images/checkmark-small.png "Good Technique")Use headings to define the page structure](#1)
+-   [![Good Technique](images/checkmark-small.png "Good Technique")Use CSS to style the headings](#2)
+-   [![Good Technique](images/checkmark-small.png "Good Technique")General Rules for Applying Headings](#3)
+-   [![Bad Technique](images/x-small.png "Bad Technique")Only using styles to denote headings](#4)
 
-The first level of structure to add to a page is headings. Headings are
-used to break up the content into a hierarchical structure much like an
-outline. Where sighted users can skim a page quickly by reading the
-visual headlines, a screen reader user can also skim a page by quickly
-traversing the headings. To semantically define headings simply use
-heading tags to label the beginning of each section.
+The first level of structure to add to a page is headings. Headings are used to break up the content into a hierarchical structure much like an outline. Where sighted users can skim a page quickly by reading the visual headlines, a screen reader user can also skim a page by quickly traversing the headings. To semantically define headings simply use heading tags to label the beginning of each section.
 
-![Good Technique](images/checkmark-small.png "Good Technique")Use headings to define the page structure {#1}
+![Good Technique](images/checkmark-small.png "Good Technique")Use headings to define the page structure
 -------------------------------------------------------------------------------------------------------
 
-This both creates a semantic structure for your page and it allows
-screen reader users to be able to navigate by heading and jump from
-section to section.
+This both creates a semantic structure for your page and it allows screen reader users to be able to navigate by heading and jump from section to section.
 
 ~~~~ {.code}
 <h1>Our News Site</h1>
@@ -47,11 +32,10 @@ section to section.
   <h2>Entertainment</h2>
 ~~~~
 
-![Good Technique](images/checkmark-small.png "Good Technique")Use CSS to style the headings {#2}
+![Good Technique](images/checkmark-small.png "Good Technique")Use CSS to style the headings
 -------------------------------------------------------------------------------------------
 
-If you don't like the way the default heading look, and most of us
-don't, just use CSS to style the headings.
+If you don't like the way the default heading look, and most of us don't, just use CSS to style the headings.
 
 ~~~~ {.code}
 <style>
@@ -72,30 +56,21 @@ don't, just use CSS to style the headings.
   <h2>Entertainment</h2>
 ~~~~
 
-General Rules for Applying Headings {#3}
+General Rules for Applying Headings
 -----------------------------------
 
--   Your \<h1\> should be where the unique main content of your page
-    begins, which usually means it will come after your navigation
-    system.
--   It is fine if your first heading on the page is not an \<h1\>, such
-    as a having an \<h2\> come before your first \<h1\>
--   You should have only 1 \<h1\> per page. If you feel you must, you
-    can use a second \<h1\> for the title of your page.
+-   Your \<h1\> should be where the unique main content of your page begins, which usually means it will come after your navigation system.
+-   It is fine if your first heading on the page is not an \<h1\>, such as a having an \<h2\> come before your first \<h1\>
+-   You should have only 1 \<h1\> per page. If you feel you must, you can use a second \<h1\> for the title of your page.
 -   Don’t obsess over making the first heading on your page an \<h1\>.
--   Don’t pick a heading level simply for font sizing purposes. Pick a
-    level that corresponds roughly to the outline of the page.
--   It is not usually necessary to skip heading levels, going from an
-    \<h1\> directly to an \<h3\>.
--   There are always exceptions to rules. Just make sure you are
-    breaking the rules for a good reason.
+-   Don’t pick a heading level simply for font sizing purposes. Pick a level that corresponds roughly to the outline of the page.
+-   It is not usually necessary to skip heading levels, going from an \<h1\> directly to an \<h3\>.
+-   There are always exceptions to rules. Just make sure you are breaking the rules for a good reason.
 
-![Bad Technique](images/x-small.png "Bad Technique")Only using styles to denote headings {#4}
+![Bad Technique](images/x-small.png "Bad Technique")Only using styles to denote headings
 ----------------------------------------------------------------------------------------
 
-Do not use stylings as the only way to communicate what your headings
-are. This works for visual users, but screen reader users will not be
-able to easily divide your page into logical structures.
+Do not use stylings as the only way to communicate what your headings are. This works for visual users, but screen reader users will not be able to easily divide your page into logical structures.
 
 ~~~~ {.code}
 <style>

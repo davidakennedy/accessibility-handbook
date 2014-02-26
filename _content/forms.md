@@ -1,64 +1,34 @@
 Appendix A - Testing Tools
 
-[![previous](images/left-arrow.png)Skip to Main Content
-Links](http://accessibility.oit.ncsu.edu/training/accessibility-handbook/skip-to-main-content.html)
+[![previous](images/left-arrow.png)Skip to Main Content Links](http://accessibility.oit.ncsu.edu/training/accessibility-handbook/skip-to-main-content.html)
 
-[Color
-Contrast![next](images/right-arrow.png)](http://accessibility.oit.ncsu.edu/training/accessibility-handbook/color-contrast.html)
+[Color Contrast![next](images/right-arrow.png)](http://accessibility.oit.ncsu.edu/training/accessibility-handbook/color-contrast.html)
 
-Page Contents {#page-contents-heading}
+Page Contents
 -------------
 
--   [![Good Technique](images/checkmark-small.png "Good Technique")Using
-    "for" and "id" attributes to attach labels to form elements](#1)
--   [![Good
-    Technique](images/checkmark-small.png "Good Technique")Nesting the
-    input element within the label tag to attach labels to form
-    elements](#2)
--   [![Good Technique](images/checkmark-small.png "Good Technique")Text
-    field, ideal implementation](#3)
--   [![Good Technique](images/checkmark-small.png "Good Technique")Text
-    field, alternative implementation](#4)
--   [![Good
-    Technique](images/checkmark-small.png "Good Technique")Single
-    checkbox](#5)
--   [![Good
-    Technique](images/checkmark-small.png "Good Technique")Multiple
-    related checkboxes](#6)
--   ![Good Technique](images/checkmark-small.png "Good Technique")Radio
-    button/a\>
--   [![Good
-    Technique](images/checkmark-small.png "Good Technique")Select menu,
-    single item selection](#8)
--   [![Good
-    Technique](images/checkmark-small.png "Good Technique")Select menu,
-    multiple item selection](#9)
--   [![Good Technique](images/checkmark-small.png "Good Technique")Jump
-    menu, with "Go" button](#10)
--   [![Good Technique](images/checkmark-small.png "Good Technique")Text
-    area](#11)
--   [![Good
-    Technique](images/checkmark-small.png "Good Technique")Button](#12)
--   [![Good Technique](images/checkmark-small.png "Good Technique")Image
-    buttons](#13)
--   [![Bad Technique](images/x-small.png "Bad Technique")Unlabeled input
-    element](#14)
--   [![Bad Technique](images/x-small.png "Bad Technique")Automatic jump
-    menu](#15)
--   [![Bad Technique](images/x-small.png "Bad Technique")Image button,
-    no alt text](#16)
+-   [![Good Technique](images/checkmark-small.png "Good Technique")Using "for" and "id" attributes to attach labels to form elements](#1)
+-   [![Good Technique](images/checkmark-small.png "Good Technique")Nesting the input element within the label tag to attach labels to form elements](#2)
+-   [![Good Technique](images/checkmark-small.png "Good Technique")Text field, ideal implementation](#3)
+-   [![Good Technique](images/checkmark-small.png "Good Technique")Text field, alternative implementation](#4)
+-   [![Good Technique](images/checkmark-small.png "Good Technique")Single checkbox](#5)
+-   [![Good Technique](images/checkmark-small.png "Good Technique")Multiple related checkboxes](#6)
+-   ![Good Technique](images/checkmark-small.png "Good Technique")Radio button/a\>
+-   [![Good Technique](images/checkmark-small.png "Good Technique")Select menu, single item selection](#8)
+-   [![Good Technique](images/checkmark-small.png "Good Technique")Select menu, multiple item selection](#9)
+-   [![Good Technique](images/checkmark-small.png "Good Technique")Jump menu, with "Go" button](#10)
+-   [![Good Technique](images/checkmark-small.png "Good Technique")Text area](#11)
+-   [![Good Technique](images/checkmark-small.png "Good Technique")Button](#12)
+-   [![Good Technique](images/checkmark-small.png "Good Technique")Image buttons](#13)
+-   [![Bad Technique](images/x-small.png "Bad Technique")Unlabeled input element](#14)
+-   [![Bad Technique](images/x-small.png "Bad Technique")Automatic jump menu](#15)
+-   [![Bad Technique](images/x-small.png "Bad Technique")Image button, no alt text](#16)
 
-The basic requirement of forms is that all of the input fields need to
-be labelled with label elements.
+The basic requirement of forms is that all of the input fields need to be labelled with label elements.
 
 Using "for" and "id" attributes to attach labels to form elements
 
-All form input elements must have a corresponding label to indicate what
-information is being requested. This method explicitly ties a label to
-an input element by matching the "for" attribute in the label tag with
-the "id" attribute in the input element tag. NOTE: This method will
-usually give you more flexibility in applying custom styling to your
-form elements. All of the examples on this page will use this method.
+All form input elements must have a corresponding label to indicate what information is being requested. This method explicitly ties a label to an input element by matching the "for" attribute in the label tag with the "id" attribute in the input element tag. NOTE: This method will usually give you more flexibility in applying custom styling to your form elements. All of the examples on this page will use this method.
 
 ### Source Code
 
@@ -70,12 +40,9 @@ form elements. All of the examples on this page will use this method.
 
 First Name
 
-Nesting the input element within the label tag to attach labels to form
-elements
+Nesting the input element within the label tag to attach labels to form elements
 
-All form input elements must have a corresponding label to indicate what
-information is being requested. This method ties a label to an input
-element by wrapping the input element with the label tag.
+All form input elements must have a corresponding label to indicate what information is being requested. This method ties a label to an input element by wrapping the input element with the label tag.
 
 ### Source Code
 
@@ -89,8 +56,7 @@ First Name
 
 Text field, ideal implementation
 
-This method has a visible label that describes what information is being
-asked for in the text box.
+This method has a visible label that describes what information is being asked for in the text box.
 
 ### Source Code
 
@@ -104,28 +70,16 @@ Last Name
 
 Text field, alternative implementation
 
-Sometimes for stylistic reasons you do not want have a visible label
-displayed. Instead of a visible label you can use the title attribute of
-the input element to describe what information is being asked for. If
-this technique is used you still need to visually let your user know
-what information you are asking for. This is often handled by
-pre-populating the text field with the information being requested.
+Sometimes for stylistic reasons you do not want have a visible label displayed. Instead of a visible label you can use the title attribute of the input element to describe what information is being asked for. If this technique is used you still need to visually let your user know what information you are asking for. This is often handled by pre-populating the text field with the information being requested.
 
-This introduces new issues that must be dealt with, such as the
-following.
+This introduces new issues that must be dealt with, such as the following.
 
--   having to clear the text out of the box before entering new
-    information or risk having strange data submitted like "CityRaleigh"
--   if the user deletes the initial text then later comes back to the
-    form element, will they remember what information was being asked
-    for
+-   having to clear the text out of the box before entering new information or risk having strange data submitted like "CityRaleigh"
+-   if the user deletes the initial text then later comes back to the form element, will they remember what information was being asked for
 
-These issues can be handled with JavaScript. While the following
-technique will sometimes produce errors or warnings by automated
-accessibility checkers, it is usable by major screen readers.
+These issues can be handled with JavaScript. While the following technique will sometimes produce errors or warnings by automated accessibility checkers, it is usable by major screen readers.
 
-This technique is derived from [testing done by Terrill
-Thompson](http://terrillthompson.com/blog/38).
+This technique is derived from [testing done by Terrill Thompson](http://terrillthompson.com/blog/38).
 
 ### Source Code
 
@@ -170,11 +124,10 @@ Thompson](http://terrillthompson.com/blog/38).
 
 ### Implementation
 
-![Good Technique](images/checkmark-small.png "Good Technique")Single checkbox {#5}
+![Good Technique](images/checkmark-small.png "Good Technique")Single checkbox
 -----------------------------------------------------------------------------
 
-For a single checkbox you simply need to attach the label to the input
-element.
+For a single checkbox you simply need to attach the label to the input element.
 
 ### Source Code
 
@@ -187,13 +140,10 @@ element.
 
 Send me email updates.
 
-![Good Technique](images/checkmark-small.png "Good Technique")Multiple related checkboxes {#6}
+![Good Technique](images/checkmark-small.png "Good Technique")Multiple related checkboxes
 -----------------------------------------------------------------------------------------
 
-When you have a collection of related check boxes you need to include
-them in a fieldset and provide a legend. This helps visually identify
-related elements plus provides a description for how these items are
-related.
+When you have a collection of related check boxes you need to include them in a fieldset and provide a legend. This helps visually identify related elements plus provides a description for how these items are related.
 
 ### Source Code
 
@@ -211,22 +161,14 @@ related.
 
 ### Implementation
 
-Select your days of availability: Monday\
- Tuesday\
+Select your days of availability: Monday
+ Tuesday
  Wednesday
 
-![Good Technique](images/checkmark-small.png "Good Technique")Radio button {#7}
+![Good Technique](images/checkmark-small.png "Good Technique")Radio button
 --------------------------------------------------------------------------
 
-To make a radio button accessible you first need to attach the label to
-the input element.When you have a radio button input you usually have
-more than one input. (If you only have one radio button, a checkbox is
-more appropriate because it gives the user the option to unselect it.)
-Using the fieldset and legend helps visually identify the related group
-of radio buttons plus provides a description for how they are related.
-NOTE: By giving all of the radio buttons the same name it creates a
-radio group where selecting one radio button unselects the others in the
-group.
+To make a radio button accessible you first need to attach the label to the input element.When you have a radio button input you usually have more than one input. (If you only have one radio button, a checkbox is more appropriate because it gives the user the option to unselect it.) Using the fieldset and legend helps visually identify the related group of radio buttons plus provides a description for how they are related. NOTE: By giving all of the radio buttons the same name it creates a radio group where selecting one radio button unselects the others in the group.
 
 ### Source Code
 
@@ -244,15 +186,14 @@ group.
 
 ### Implementation
 
-Payment Method Cash \
- Check \
+Payment Method Cash
+ Check
  Credit Card
 
-![Good Technique](images/checkmark-small.png "Good Technique")Select menu, single item selection {#8}
+![Good Technique](images/checkmark-small.png "Good Technique")Select menu, single item selection
 ------------------------------------------------------------------------------------------------
 
-To make a select menu accessible you simply need to attach the label to
-the input element.
+To make a select menu accessible you simply need to attach the label to the input element.
 
 ### Source Code
 
@@ -269,12 +210,10 @@ the input element.
 
 Choose the color you want Green Blue Red
 
-![Good Technique](images/checkmark-small.png "Good Technique")Select menu, multiple item selection {#9}
+![Good Technique](images/checkmark-small.png "Good Technique")Select menu, multiple item selection
 --------------------------------------------------------------------------------------------------
 
-It is possible to make a menu that allows multiple selections by adding
-the attribute multiple="multiple" to the select tag, **however, this can
-be more difficult for some users to manipulate**.
+It is possible to make a menu that allows multiple selections by adding the attribute multiple="multiple" to the select tag, **however, this can be more difficult for some users to manipulate**.
 
 ### Source Code
 
@@ -289,11 +228,10 @@ be more difficult for some users to manipulate**.
 
 ### Implementation
 
-Choose the colors you want\
+Choose the colors you want
  Green Blue Red
 
-**It is recommended to use a set of checkboxes to accomplish the same
-goal.**
+**It is recommended to use a set of checkboxes to accomplish the same goal.**
 
 ### Source Code
 
@@ -308,19 +246,14 @@ goal.**
 
 ### Implementation
 
-Choose the colors you want Green\
- Blue\
+Choose the colors you want Green
+ Blue
  Red
 
-![Good Technique](images/checkmark-small.png "Good Technique")Jump menu, with "Go" button {#10}
+![Good Technique](images/checkmark-small.png "Good Technique")Jump menu, with "Go" button
 -----------------------------------------------------------------------------------------
 
-Many times select menus are turned into "jump menus" by executing some
-JavaScript as soon as the selection has changed. This creates
-accessibility issues for users because actions can be triggered
-accidentally by simply tabbing or arrowing through a menu. Instead of a
-jump menu, a "go" button should be used in conjunction with a select
-menu to achieve the same goal.
+Many times select menus are turned into "jump menus" by executing some JavaScript as soon as the selection has changed. This creates accessibility issues for users because actions can be triggered accidentally by simply tabbing or arrowing through a menu. Instead of a jump menu, a "go" button should be used in conjunction with a select menu to achieve the same goal.
 
 ### Source Code
 
@@ -336,14 +269,12 @@ menu to achieve the same goal.
 
 Implementation
 
-Go to the Web Site: NC State University NC State IT Accessibility Office
-of Information Technology
+Go to the Web Site: NC State University NC State IT Accessibility Office of Information Technology
 
-![Good Technique](images/checkmark-small.png "Good Technique")Text area {#11}
+![Good Technique](images/checkmark-small.png "Good Technique")Text area
 -----------------------------------------------------------------------
 
-To make a text area accessible you simply need to attach the label to
-the input element.
+To make a text area accessible you simply need to attach the label to the input element.
 
 ### Source Code
 
@@ -354,13 +285,12 @@ the input element.
 
 ### Implementation
 
-Please leave your feedback:\
+Please leave your feedback:
 
-![Good Technique](images/checkmark-small.png "Good Technique")Button {#12}
+![Good Technique](images/checkmark-small.png "Good Technique")Button
 --------------------------------------------------------------------
 
-Buttons are inherently accessible as long as the you provide an
-appropriate value attribute.
+Buttons are inherently accessible as long as the you provide an appropriate value attribute.
 
 ### Source Code
 
@@ -370,11 +300,10 @@ appropriate value attribute.
 
 ### Implementation
 
-![Good Technique](images/checkmark-small.png "Good Technique")Image buttons {#13}
+![Good Technique](images/checkmark-small.png "Good Technique")Image buttons
 ---------------------------------------------------------------------------
 
-If you use an image button make sure the alt attribute is set
-appropriately.
+If you use an image button make sure the alt attribute is set appropriately.
 
 ### Source Code
 
@@ -384,15 +313,10 @@ appropriately.
 
 ### Implementation
 
-![Bad Technique](images/x-small.png "Bad Technique")Unlabeled input element {#14}
+![Bad Technique](images/x-small.png "Bad Technique")Unlabeled input element
 ---------------------------------------------------------------------------
 
-Some screen readers have built enough logic into their form parsing
-algorithms to be able to make guesses at how unlabeled form elements
-should be labeled. However, that logic should not be depended upon as an
-excuse for poor coding practices. Explicitly attaching labels to input
-elements is the only way to ensure all users will be able to correctly
-identify what is being asked for in a particular input field.
+Some screen readers have built enough logic into their form parsing algorithms to be able to make guesses at how unlabeled form elements should be labeled. However, that logic should not be depended upon as an excuse for poor coding practices. Explicitly attaching labels to input elements is the only way to ensure all users will be able to correctly identify what is being asked for in a particular input field.
 
 ### Source Code
 
@@ -404,14 +328,10 @@ identify what is being asked for in a particular input field.
 
 First Name:
 
-![Bad Technique](images/x-small.png "Bad Technique")Automatic jump menu {#15}
+![Bad Technique](images/x-small.png "Bad Technique")Automatic jump menu
 -----------------------------------------------------------------------
 
-When you set up a select menu to automatically fire an action once the
-selection has changed, when keyboard-only users and screen reader users
-try to read the options in the list, oftentimes the action will fire as
-soon as their focus leaves the select menu, even if they did not want to
-execute the action.
+When you set up a select menu to automatically fire an action once the selection has changed, when keyboard-only users and screen reader users try to read the options in the list, oftentimes the action will fire as soon as their focus leaves the select menu, even if they did not want to execute the action.
 
 ### Source Code
 
@@ -427,15 +347,12 @@ execute the action.
 
 ### Implementation
 
-Go to the Web Site: NC State University NC State IT Accessibility Office
-of Information Technology
+Go to the Web Site: NC State University NC State IT Accessibility Office of Information Technology
 
-![Bad Technique](images/x-small.png "Bad Technique")Image button, no alt text {#16}
+![Bad Technique](images/x-small.png "Bad Technique")Image button, no alt text
 -----------------------------------------------------------------------------
 
-If your image button does not contain alternative text in the alt
-attribute, screen readers will not know what the function of the button
-is.
+If your image button does not contain alternative text in the alt attribute, screen readers will not know what the function of the button is.
 
 ### Source Code
 

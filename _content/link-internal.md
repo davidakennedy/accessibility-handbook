@@ -1,23 +1,18 @@
 Appendix A - Testing Tools
 
-[![previous](images/left-arrow.png)Link Text or Alt
-Attribute](http://accessibility.oit.ncsu.edu/training/accessibility-handbook/link-text-alt.html)
+[![previous](images/left-arrow.png)Link Text or Alt Attribute](http://accessibility.oit.ncsu.edu/training/accessibility-handbook/link-text-alt.html)
 
-[Link vs.
-Button![next](images/right-arrow.png)](http://accessibility.oit.ncsu.edu/training/accessibility-handbook/link-behavior.html)
+[Link vs. Button![next](images/right-arrow.png)](http://accessibility.oit.ncsu.edu/training/accessibility-handbook/link-behavior.html)
 
-Page Contents {#page-contents-heading}
+Page Contents
 -------------
 
--   [![Good Technique](images/checkmark-small.png "Good Technique")Using
-    the ID attribute to make an internal link](#1)
--   [![Bad Technique](images/x-small.png "Bad Technique")Using the name
-    attribute to make an internal link](#2)
+-   [![Good Technique](images/checkmark-small.png "Good Technique")Using the ID attribute to make an internal link](#1)
+-   [![Bad Technique](images/x-small.png "Bad Technique")Using the name attribute to make an internal link](#2)
 
-If you want to make a link go to another point on the same page there
-are two ways to accomplish it - one correct way and one deprecated way.
+If you want to make a link go to another point on the same page there are two ways to accomplish it - one correct way and one deprecated way.
 
-![Good Technique](images/checkmark-small.png "Good Technique")Using the ID attribute to make an internal link {#1}
+![Good Technique](images/checkmark-small.png "Good Technique")Using the ID attribute to make an internal link
 -------------------------------------------------------------------------------------------------------------
 
 ### Source Code
@@ -34,10 +29,10 @@ are two ways to accomplish it - one correct way and one deprecated way.
 
 ...
 
-Our Services {#services}
+Our Services
 ------------
 
-![Bad Technique](images/x-small.png "Bad Technique")Using the name attribute to make an internal link {#2}
+![Bad Technique](images/x-small.png "Bad Technique")Using the name attribute to make an internal link
 -----------------------------------------------------------------------------------------------------
 
 The name attribute has been deprecated in HTML5 and should not be used.

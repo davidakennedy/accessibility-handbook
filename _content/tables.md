@@ -2,46 +2,30 @@ Appendix A - Testing Tools
 
 [![previous](images/left-arrow.png)Lists](http://accessibility.oit.ncsu.edu/training/accessibility-handbook/lists.html)
 
-[Mouse and Keyboard
-Events![next](images/right-arrow.png)](http://accessibility.oit.ncsu.edu/training/accessibility-handbook/mouse-and-keyboard-events.html)
+[Mouse and Keyboard Events![next](images/right-arrow.png)](http://accessibility.oit.ncsu.edu/training/accessibility-handbook/mouse-and-keyboard-events.html)
 
-Page Contents {#page-contents-heading}
+Page Contents
 -------------
 
--   [![Good Technique](images/checkmark-small.png "Good Technique")A
-    simple data table with column and row headings](#1)
--   [![Good Technique](images/checkmark-small.png "Good Technique")A
-    complex data table using header and id attributes](#2)
--   [![Good Technique](images/checkmark-small.png "Good Technique")A
-    layout table](#3)
--   [![Bad Technique](images/x-small.png "Bad Technique")A data table
-    with no headings, but using bold text to mimic headings](#4)
--   [![Bad Technique](images/x-small.png "Bad Technique")A layout table
-    with a summary attribute](#5)
+-   [![Good Technique](images/checkmark-small.png "Good Technique")A simple data table with column and row headings](#1)
+-   [![Good Technique](images/checkmark-small.png "Good Technique")A complex data table using header and id attributes](#2)
+-   [![Good Technique](images/checkmark-small.png "Good Technique")A layout table](#3)
+-   [![Bad Technique](images/x-small.png "Bad Technique")A data table with no headings, but using bold text to mimic headings](#4)
+-   [![Bad Technique](images/x-small.png "Bad Technique")A layout table with a summary attribute](#5)
 
 Overview
 --------
 
-Tables are primarily used to present tabular information, however,
-tables are also still used for creating layouts. While WCAG does not
-prohibit the use of tables for layouts, it encourages developers to use
-CSS instead.
+Tables are primarily used to present tabular information, however, tables are also still used for creating layouts. While WCAG does not prohibit the use of tables for layouts, it encourages developers to use CSS instead.
 
-Tables used to display tabular information can be divided into two
-groups - simple layouts and complex layouts. Simple layouts have a
-single row of headers at the top of the table and/or a single column of
-headers on the left side of the table. Additionally, there are no merged
-cells within the table. Complex data tables have either multiple rows or
-columns of headers, contain merged cells, or contain blank rows or
-columns for visual effect.
+Tables used to display tabular information can be divided into two groups - simple layouts and complex layouts. Simple layouts have a single row of headers at the top of the table and/or a single column of headers on the left side of the table. Additionally, there are no merged cells within the table. Complex data tables have either multiple rows or columns of headers, contain merged cells, or contain blank rows or columns for visual effect.
 
 Additionally, data tables must also have a caption or a summary.
 
 Caption
 -------
 
-The caption element identifies the table. It can be thought of as a
-title or a heading for a table.
+The caption element identifies the table. It can be thought of as a title or a heading for a table.
 
 ~~~~ {.code}
 <table>
@@ -67,13 +51,10 @@ title or a heading for a table.
 Summary
 -------
 
-The summary can perform two different functions. It is allowable to have
-the summary perform both functions at the same time.
+The summary can perform two different functions. It is allowable to have the summary perform both functions at the same time.
 
--   it can describe the layout of the table to help screen reader users
-    know how to navigate the table
--   it can describe in narrative form what information the table is
-    trying to convey
+-   it can describe the layout of the table to help screen reader users know how to navigate the table
+-   it can describe in narrative form what information the table is trying to convey
 
 ~~~~ {.code}
 <table summary="Schedule for Route 7 going downtown. Service begins 
@@ -96,7 +77,7 @@ down that column to find out what time the bus leaves that intersection.">
 </table>
 ~~~~
 
-![Good Technique](images/checkmark-small.png "Good Technique")A simple data table with column and row headings {#1}
+![Good Technique](images/checkmark-small.png "Good Technique")A simple data table with column and row headings
 --------------------------------------------------------------------------------------------------------------
 
 ### Source Code
@@ -167,7 +148,7 @@ Pepperoni
 
 \$14
 
-![Good Technique](images/checkmark-small.png "Good Technique")A complex data table using header and id attributes {#2}
+![Good Technique](images/checkmark-small.png "Good Technique")A complex data table using header and id attributes
 -----------------------------------------------------------------------------------------------------------------
 
 ### Source Code
@@ -285,7 +266,7 @@ Large
 
 \$1.00
 
-![Good Technique](images/checkmark-small.png "Good Technique")A layout table {#3}
+![Good Technique](images/checkmark-small.png "Good Technique")A layout table
 ----------------------------------------------------------------------------
 
 ### Source Code
@@ -319,10 +300,10 @@ Large
 Website Logo
 ============
 
-[Menu link](#)\
- [Menu link](#)\
- [Menu link](#)\
- [Menu link](#)\
+[Menu link](#)
+ [Menu link](#)
+ [Menu link](#)
+ [Menu link](#)
  [Menu link](#)
 
 Welcome to our great site!
@@ -332,7 +313,7 @@ Come find out about all of the great things we do here at our company!
 
 Contact Info
 
-![Bad Technique](images/x-small.png "Bad Technique")A data table with no headings, but using bold text to mimic headings {#4}
+![Bad Technique](images/x-small.png "Bad Technique")A data table with no headings, but using bold text to mimic headings
 ------------------------------------------------------------------------------------------------------------------------
 
 ### Source Code
@@ -368,20 +349,16 @@ Contact Info
 
 ### Implementation
 
-  ----------- ------- ------- -------
-              Small   Medum   Large
-  Cheese      \$8     \$10    \$12
-  Veggie      \$10    \$12    \$14
-  Pepperoni   \$10    \$12    \$14
-  ----------- ------- ------- -------
+||
+| |Small|Medum|Large|
+|Cheese|\$8|\$10|\$12|
+|Veggie|\$10|\$12|\$14|
+|Pepperoni|\$10|\$12|\$14|
 
-![Bad Technique](images/x-small.png "Bad Technique")A layout table with a summary attribute {#5}
+![Bad Technique](images/x-small.png "Bad Technique")A layout table with a summary attribute
 -------------------------------------------------------------------------------------------
 
-When you add the summary attribute to a layout table, screen reader
-users will have the summary attribute read to them. This is unnecessary
-and more cumbersome to the user. It is better to simply leave the
-summary attribute and caption element off.
+When you add the summary attribute to a layout table, screen reader users will have the summary attribute read to them. This is unnecessary and more cumbersome to the user. It is better to simply leave the summary attribute and caption element off.
 
 ### Source Code
 
@@ -414,10 +391,10 @@ summary attribute and caption element off.
 Website Logo
 ============
 
-[Menu link](#)\
- [Menu link](#)\
- [Menu link](#)\
- [Menu link](#)\
+[Menu link](#)
+ [Menu link](#)
+ [Menu link](#)
+ [Menu link](#)
  [Menu link](#)
 
 Welcome to our great site!
@@ -430,16 +407,10 @@ Contact Info
 Further Reading
 ---------------
 
--   [WebAIM: Creating Accessible
-    Tables](http://webaim.org/techniques/tables/)
--   [W3C: Summary Attribute
-    Technique](http://www.w3.org/TR/WCAG20-TECHS/H73.html)
--   [W3C: Correctly Making Layout
-    Tables](http://www.w3.org/TR/WCAG20-TECHS/F46.html)
--   [W3C: Table Header and ID
-    Attributes](http://www.w3.org/TR/WCAG20-TECHS/H43.html)
--   [W3C: Presenting Tabular
-    Information](http://www.w3.org/TR/WCAG20-TECHS/H51.html)
--   [W3C: Table Scope
-    Attribute](http://www.w3.org/TR/WCAG20-TECHS/H63.html)
+-   [WebAIM: Creating Accessible Tables](http://webaim.org/techniques/tables/)
+-   [W3C: Summary Attribute Technique](http://www.w3.org/TR/WCAG20-TECHS/H73.html)
+-   [W3C: Correctly Making Layout Tables](http://www.w3.org/TR/WCAG20-TECHS/F46.html)
+-   [W3C: Table Header and ID Attributes](http://www.w3.org/TR/WCAG20-TECHS/H43.html)
+-   [W3C: Presenting Tabular Information](http://www.w3.org/TR/WCAG20-TECHS/H51.html)
+-   [W3C: Table Scope Attribute](http://www.w3.org/TR/WCAG20-TECHS/H63.html)
 
