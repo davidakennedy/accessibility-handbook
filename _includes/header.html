@@ -15,6 +15,11 @@
           {% endif %}
         {% endfor %}
       </ul>
+        <ul>
+          {% for cat in site.categories %}
+            <li>{{ cat[0] }}</li>
+          {% endfor %}
+        </ul>
     </nav>
   </div>
 </header>
