@@ -1,3 +1,10 @@
+---
+layout: page
+title:  "ARIA Live"
+date: 2014-02-26
+last_updated: 2014-02-26
+---
+
 Any time you dynamically add, modify, or delete content from a Web page, you need to notify the user. The ARIA specification provides mechanisms to do this, called ARIA Live Regions. There are different ways to implement this depending on the type of modification being made.
 
 -   An **alert** notification where the alert message is delivered through a modal window.

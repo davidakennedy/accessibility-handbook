@@ -1,3 +1,10 @@
+---
+layout: page
+title:  "Descriptive Link Text"
+date: 2014-02-26
+last_updated: 2014-02-26
+---
+
 Appendix A - Testing Tools
 
 [![previous](images/left-arrow.png)Link vs. Button](http://accessibility.oit.ncsu.edu/training/accessibility-handbook/link-behavior.html)
@@ -18,9 +25,9 @@ The link text should be descriptive of its target location. Do not use “click 
 
 ### Source Code
 
-~~~~ {.code}
+``` {.code}
 Find out more information at the <a href="http://accessibility.oit.ncsu.edu">NC State IT  Accessibility</a> home page.
-~~~~
+```
 
 ### Implementation
 
@@ -31,9 +38,9 @@ Find out more information at the [NC State IT Accessibility](http://accessibilit
 
 ### Source Code
 
-~~~~ {.code}
+``` {.code}
 <a href="http://accessibility.oit.ncsu.edu">Click here</a> to find out more information at the NC State  IT Accessibility home page.
-~~~~
+```
 
 ### Implementation
 
@@ -44,9 +51,9 @@ Find out more information at the [NC State IT Accessibility](http://accessibilit
 
 ### Source Code
 
-~~~~ {.code}
+``` {.code}
 <a href="http://accessibility.oit.ncsu.edu">Click here to find out more information at the NC State  IT Accessibility home page.</a>
-~~~~
+```
 
 ### Implementation
 

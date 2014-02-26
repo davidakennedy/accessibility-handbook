@@ -1,3 +1,10 @@
+---
+layout: page
+title:  "Headings"
+date: 2014-02-26
+last_updated: 2014-02-26
+---
+
 ARIA Checkbox Tutorial Alternative Text Captioning Appendix A - Testing Tools
 
 [![previous](images/left-arrow.png)Valid Code](http://accessibility.oit.ncsu.edu/training/accessibility-handbook/valid-code.html)
@@ -19,7 +26,7 @@ The first level of structure to add to a page is headings. Headings are used to 
 
 This both creates a semantic structure for your page and it allows screen reader users to be able to navigate by heading and jump from section to section.
 
-~~~~ {.code}
+``` {.code}
 <h1>Our News Site</h1>
   <h2>World News</h2>
   <h2>National News</h2>
@@ -30,14 +37,14 @@ This both creates a semantic structure for your page and it allows screen reader
     <h3>Environment</h3>
     <h3>Technology</h3>
   <h2>Entertainment</h2>
-~~~~
+```
 
 ![Good Technique](images/checkmark-small.png "Good Technique")Use CSS to style the headings
 -------------------------------------------------------------------------------------------
 
 If you don't like the way the default heading look, and most of us don't, just use CSS to style the headings.
 
-~~~~ {.code}
+``` {.code}
 <style>
   h1 {font-size:1.4em; font-weight:bold; color:#000;}
   h2 {font-size:1.2em; font-weight:bold; color:#222;}
@@ -54,7 +61,7 @@ If you don't like the way the default heading look, and most of us don't, just u
     <h3>Environment</h3>
     <h3>Technology</h3>
   <h2>Entertainment</h2>
-~~~~
+```
 
 General Rules for Applying Headings
 -----------------------------------
@@ -72,7 +79,7 @@ General Rules for Applying Headings
 
 Do not use stylings as the only way to communicate what your headings are. This works for visual users, but screen reader users will not be able to easily divide your page into logical structures.
 
-~~~~ {.code}
+``` {.code}
 <style>
   .really-big {font-size:1.4em; font-weight:bold; color:#000; margin:0;}
   .big {font-size:1.2em; font-weight:bold; color:#222; margin:0 2em;}
@@ -89,7 +96,7 @@ Do not use stylings as the only way to communicate what your headings are. This 
     <p class="a-little-bigger">Environment</p>
     <p class="a-little-bigger">Technology</p>
   <p class="big">Entertainment</p>
-~~~~
+```
 
 ### Implementation
 

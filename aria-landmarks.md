@@ -1,3 +1,10 @@
+---
+layout: page
+title:  "ARIA Landmarks"
+date: 2014-02-26
+last_updated: 2014-02-26
+---
+
 Appendix A - Testing Tools
 
 [![previous](images/left-arrow.png)Headings](http://accessibility.oit.ncsu.edu/training/accessibility-handbook/headings.html)
@@ -17,7 +24,7 @@ ARIA landmarks are attributes you can add to elements in your page to define are
 
 When you define parts of your page with these roles, it allows screen reader user the ability to easily jump from one section to another and know where they are going. For example, we often code our main menu like the following.
 
-~~~~ {.code}
+```
 <div id="nav">
   <ul>
     <li>Home</li>
@@ -25,11 +32,11 @@ When you define parts of your page with these roles, it allows screen reader use
     <li>Support</li>
   </ul>
 </div>
-~~~~
+```
 
 When screen reader users encounter something like this they will hear a collection of links and have to intuit from the context that it is the main menu. Perhaps if they hear it read near the top of the page they can guess it is the main navigation for the page. However, with ARIA landmarks we can provide semantic information about the navigation area. By adding the attribute role=”navigation” to the containing \<div\>, we are marking this as a navigation region.
 
-~~~~ {.code}
+```
 <div id="nav" role="navigation">
   <ul>
     <li>Home</li>
@@ -37,7 +44,7 @@ When screen reader users encounter something like this they will hear a collecti
     <li>Support</li>
   </ul>
 </div>
-~~~~
+```
 
 In this case the screen reader user will hear something like "navigation landmark."
 
@@ -48,7 +55,7 @@ aria-label
 
 We can take this a step further and describe this navigation region using the aria-label attribute. aria-label is a description that is never displayed on screen but is relayed to the screen reader user. This can be very helpful if you have multiple navigation areas within a single page.
 
-~~~~ {.code}
+```
 <div id="nav" role="navigation" aria-label="main navigation">
   <ul>
     <li>Home</li>
@@ -64,7 +71,7 @@ We can take this a step further and describe this navigation region using the ar
     <li>Customer Reviews</li>
   </ul>
 </div>
-~~~~
+```
 
 In this case the screen reader user will hear something like "navigation landmark, main navigation", then "navigation landmark, product navigation"
 
@@ -73,7 +80,7 @@ aria-labelledby
 
 Another option for labeling an ARIA landmark is to use the aria-labelledby attribute. The aria-labelledby attribute is used when a particular landmark can be labelled by another on-screen element. You just list the id for the item that labels that landmark.
 
-~~~~ {.code}
+```
 <div role="navigation" aria-labelledby="nav-heading">
   <h2 id="nav-heading">Learn About This Product</h2>
   <ul>
@@ -82,7 +89,7 @@ Another option for labeling an ARIA landmark is to use the aria-labelledby attri
     <li>Customer Reviews</li>
   </ul>
 </div>
-~~~~
+```
 
 In this case the screen reader user will hear something like "navigation landmark, learn about this product."
 
@@ -91,7 +98,7 @@ Full Implementation of ARIA Landmarks
 
 This demonstrates a simple Web page with most of the ARIA landmarks implemented. The application landmark is not demonstrated because it is used in specialized situations.
 
-~~~~ {.code}
+```
 <div role="banner">banner</div>
 <div id="left-column">
   <div role="navigation">
@@ -132,16 +139,16 @@ This demonstrates a simple Web page with most of the ARIA landmarks implemented.
   <p><a href="#">Legal</a></p>
   <p><a href="#">Privacy Policy</a></p>
 </div>
-~~~~
+```
 
 ARIA and HTML5
 --------------
 
 HTML5 introduces many new elements, several of which correspond to, or at least are similar to the ARIA attributes. Do you still need to use ARIA attributes like "navigation" if you use the if you use the \<nav\> element? At this point the browser and screen reader support is not strong enough to depend on only the HTML5 semantics to convey the meaning, so you should still use ARIA attributes in HTML5, even when the HTML5 element could potentially convey the same meaning.
 
-~~~~ {.code}
+```
 <nav role="navigation"></nav>
-~~~~
+```
 
 The following table shows how ARIA landmarks should be applied to HTML5 Elements
 

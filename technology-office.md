@@ -1,3 +1,10 @@
+---
+layout: page
+title:  "Microsoft Office"
+date: 2014-02-26
+last_updated: 2014-02-26
+---
+
 Office documents vary in terms of how much accessibility support they provide. Documents such as Microsoft Office documents can be made quite accessible. There are techniques to provide semantic structure to the pages, like headings, and to also add in extra accessibility information, like alternative textual descriptions, when needed. Office documents have the disadvantage in that they frequently require a third-party application to view.
 
 Since many PDF documents start as office documents, sometimes it is easier and more accessible to simply provide users the original office document instead of the PDF document.

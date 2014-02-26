@@ -1,3 +1,10 @@
+---
+layout: page
+title:  "Forms"
+date: 2014-02-26
+last_updated: 2014-02-26
+---
+
 Appendix A - Testing Tools
 
 [![previous](images/left-arrow.png)Skip to Main Content Links](http://accessibility.oit.ncsu.edu/training/accessibility-handbook/skip-to-main-content.html)
@@ -32,9 +39,9 @@ All form input elements must have a corresponding label to indicate what informa
 
 ### Source Code
 
-~~~~ {.code}
+```
 <label for="first-name">First Name</label> <input id="first-name" name="first-name" type="text" />
-~~~~
+```
 
 ### Implementation
 
@@ -46,9 +53,9 @@ All form input elements must have a corresponding label to indicate what informa
 
 ### Source Code
 
-~~~~ {.code}
+```
 <label>First Name <input type="text" name="first-name" /></label>
-~~~~
+```
 
 ### Implementation
 
@@ -60,9 +67,9 @@ This method has a visible label that describes what information is being asked f
 
 ### Source Code
 
-~~~~ {.code}
+```
 <label for="last-name">Last Name</label> <input id="last-name" type="text" name="last-name" />
-~~~~
+```
 
 ### Implementation
 
@@ -83,7 +90,7 @@ This technique is derived from [testing done by Terrill Thompson](http://terrill
 
 ### Source Code
 
-~~~~ {.code}
+```
 <input name="state" title="state" id="state" type="text" />
 <script>
   var defaultValue = 'State';
@@ -120,7 +127,7 @@ This technique is derived from [testing done by Terrill Thompson](http://terrill
     });
   }
 </script>
-~~~~
+```
 
 ### Implementation
 
@@ -131,10 +138,10 @@ For a single checkbox you simply need to attach the label to the input element.
 
 ### Source Code
 
-~~~~ {.code}
+``` {.code}
 <input id="sendemail" type="checkbox" name="sendemail" value="sendemail" />
 <label for="sendemail">Send me email updates.</label>
-~~~~
+```
 
 ### Implementation
 
@@ -147,7 +154,7 @@ When you have a collection of related check boxes you need to include them in a 
 
 ### Source Code
 
-~~~~ {.code}
+``` {.code}
 <fieldset>
   <legend>Select your days of availability:</legend>
   <input id="monday" type="checkbox" name="availability" value="monday" />
@@ -157,7 +164,7 @@ When you have a collection of related check boxes you need to include them in a 
   <input id="wednesday" type="checkbox" name="availability" value="wednesday" />
   <label for="wednesday">Wednesday</label>
 </fieldset>
-~~~~
+```
 
 ### Implementation
 
@@ -172,7 +179,7 @@ To make a radio button accessible you first need to attach the label to the inpu
 
 ### Source Code
 
-~~~~ {.code}
+``` {.code}
 <fieldset>
 <legend>Payment Method</legend>
 <input id="cash" type="radio" name="payment" value="cash" />
@@ -182,7 +189,7 @@ To make a radio button accessible you first need to attach the label to the inpu
 <input id="credit" type="radio" name="payment" value="credit" />
 <label for="credit">Credit Card</label>
 </fieldset>
-~~~~
+```
 
 ### Implementation
 
@@ -197,14 +204,14 @@ To make a select menu accessible you simply need to attach the label to the inpu
 
 ### Source Code
 
-~~~~ {.code}
+``` {.code}
 <label for="color">Choose the color you want</label>
   <select id="color" name="select">
   <option value="1">Green</option>
   <option value="2">Blue</option>
   <option value="3">Red</option>
 </select>
-~~~~
+```
 
 ### Implementation
 
@@ -217,14 +224,14 @@ It is possible to make a menu that allows multiple selections by adding the attr
 
 ### Source Code
 
-~~~~ {.code}
+``` {.code}
 <label for="color2">Choose the colors you want</label><br />
   <select id="color2" multiple="multiple" name="select">
   <option value="1">Green</option>
   <option value="2">Blue</option>
   <option value="3">Red</option>
 </select>
-~~~~
+```
 
 ### Implementation
 
@@ -235,14 +242,14 @@ Choose the colors you want
 
 ### Source Code
 
-~~~~ {.code}
+``` {.code}
 <fieldset>
   <legend>Choose the colors you want</legend>
   <input id="green" name="colorcheckbox" type="checkbox" value="green" /><label for="green">Green</label><br />
   <input id="blue" name="colorcheckbox" type="checkbox" value="blue" /> <label for="blue">Blue</label><br />
   <input id="red" name="colorcheckbox" type="checkbox" value="red" /> <label for="red">Red</label>
 </fieldset>
-~~~~
+```
 
 ### Implementation
 
@@ -257,7 +264,7 @@ Many times select menus are turned into "jump menus" by executing some JavaScrip
 
 ### Source Code
 
-~~~~ {.code}
+``` {.code}
 <label for="menu">Go to the Web Site:</label>
 <select id="menu" name="menu">
   <option value="http://www.ncsu.edu/" selected="">NC State University</option>
@@ -265,7 +272,7 @@ Many times select menus are turned into "jump menus" by executing some JavaScrip
   <option value="http://oit.ncsu.edu">Office of Information Technology</option>
 </select>
 <input type="button" value="GO" onclick="location= document.getElementById('menu').options[ document.getElementById('menu').selectedIndex].value;">
-~~~~
+```
 
 Implementation
 
@@ -278,10 +285,10 @@ To make a text area accessible you simply need to attach the label to the input 
 
 ### Source Code
 
-~~~~ {.code}
+``` {.code}
 <label for="feedback">Please leave your feedback:</label><br />
 <textarea id="feedback" name="feedback"></textarea>
-~~~~
+```
 
 ### Implementation
 
@@ -294,9 +301,9 @@ Buttons are inherently accessible as long as the you provide an appropriate valu
 
 ### Source Code
 
-~~~~ {.code}
+``` {.code}
 <input type="submit" name="submit" value="Submit this form" />
-~~~~
+```
 
 ### Implementation
 
@@ -307,9 +314,9 @@ If you use an image button make sure the alt attribute is set appropriately.
 
 ### Source Code
 
-~~~~ {.code}
+``` {.code}
 <input type="image" name="submitbutton" src="images/submit-this-form-button.jpg" alt="Submit this form" />
-~~~~
+```
 
 ### Implementation
 
@@ -320,9 +327,9 @@ Some screen readers have built enough logic into their form parsing algorithms t
 
 ### Source Code
 
-~~~~ {.code}
+``` {.code}
 <p>First Name: <input name="first-name" type="text" /></p>
-~~~~
+```
 
 ### Implementation
 
@@ -335,7 +342,7 @@ When you set up a select menu to automatically fire an action once the selection
 
 ### Source Code
 
-~~~~ {.code}
+``` {.code}
 <label for="menu">Go to the Web Site:</label>
 <select id="bad-jump-menu" name="menu" onChange="location= document.getElementById('bad-jump-menu').options[ document.getElementById('bad-jump-menu').selectedIndex].value;">
   <option value="#" selected=""></option>
@@ -343,7 +350,7 @@ When you set up a select menu to automatically fire an action once the selection
   <option value="http://accessibility.oit.ncsu.edu">NC State IT Accessibility</option>
   <option value="http://oit.ncsu.edu">Office of Information Technology</option>
 </select>
-~~~~
+```
 
 ### Implementation
 
@@ -356,8 +363,8 @@ If your image button does not contain alternative text in the alt attribute, scr
 
 ### Source Code
 
-~~~~ {.code}
+``` {.code}
 <input type="image" name="submitbutton" src="images/submit-this-form-button.jpg" />
-~~~~
+```
 
 ### Implementation

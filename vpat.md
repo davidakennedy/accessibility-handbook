@@ -1,3 +1,10 @@
+---
+layout: page
+title:  "Web Content Accessibility Guidelines (WCAG) 2.0"
+date: 2014-02-26
+last_updated: 2014-02-26
+---
+
 The Voluntary Product Accessibility Template (VPAT) is a document which evaluates how accessible a particular product is according to the Section 508 Standards. It is a self-disclosing document produced by the vendor which details each aspect of the Section 508 requirements and how the product supports each criteria.
 
 VPATs are used by buyers to determine how accessible a product is and where any potential deficiencies are. They are required by some buyers before a purchase is made.

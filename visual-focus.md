@@ -1,3 +1,10 @@
+---
+layout: page
+title:  "Visual Focus"
+date: 2014-02-26
+last_updated: 2014-02-26
+---
+
 Appendix A - Testing Tools
 
 [![previous](images/left-arrow.png)Mouse and Keyboard Events](http://accessibility.oit.ncsu.edu/training/accessibility-handbook/mouse-and-keyboard-events.html)
@@ -20,11 +27,11 @@ By default, the browser will always show a focus ring around an object that is k
 
 This makes it so elements that can receive the keyboard focus do not have a focus ring around them when the user tabs to it. This makes it very difficult for non-mouse users to know where they are on the page.
 
-~~~~ {.code}
+``` {.code}
 <style>
   :focus {outline:none;}
 </style>
-~~~~
+```
 
 The solution is very simple. You simply need to either not override the default browser behavior, or explicitly set a property for the focus
 
@@ -33,19 +40,19 @@ The solution is very simple. You simply need to either not override the default 
 
 If you need to correct the issue, you can explicitly set the focus style to make it whatever style you want.
 
-~~~~ {.code}
+``` {.code}
 <style>
   :focus {outline:2px solid #f00;}
 </style>
-~~~~
+```
 
 Also, be sure you don't have any overridden focus rules on objects like links.
 
 ![Bad Technique](images/x-small.png "Bad Technique")Overriding the focus for specifically focusable elements, like links
 ------------------------------------------------------------------------------------------------------------------------
 
-~~~~ {.code}
+``` {.code}
 <style>
   a:focus {outline:none;}
 </style>
-~~~~
+```

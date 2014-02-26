@@ -1,3 +1,10 @@
+---
+layout: page
+title:  "Valid Code"
+date: 2014-02-26
+last_updated: 2014-02-26
+---
+
 It is important to have valid code on your Web pages. Web browsers are very forgiving with bad code, but that does not guarantee that your what you meant will actually be represented accurately by the browser and to assistive technologies.
 
 Just as a browser transforms your HTML code into a graphical Web page for the user, assistive technologies also transform your Web page into something that the assistive technology user needs. Your page might be transformed into an audio format or a braille format for visually impaired users. Those assistive technologies might not deal as well with coding errors as a browser does, so it is important to have valid code.

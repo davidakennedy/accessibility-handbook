@@ -1,3 +1,11 @@
+---
+layout: page
+title:  "Timed Events"
+date: 2014-02-26
+last_updated: 2014-02-26
+published: false
+---
+
 -   [![Bad Technique](images/x-small.png "Bad Technique")](#1)
 -   [![Good Technique](images/checkmark-small.png "Good Technique")](#2)
 -   [![Bad Technique](images/x-small.png "Bad Technique")](#3)
@@ -9,8 +17,8 @@ Correct Implementation
 
 ### Source Code
 
-~~~~ {.code}
-~~~~
+``` {.code}
+```
 
 ### Implementation
 
@@ -21,8 +29,8 @@ Incorrect Implementation
 
 ### Source Code
 
-~~~~ {.code}
-~~~~
+``` {.code}
+```
 
 ### Implementation
 

@@ -1,3 +1,10 @@
+---
+layout: page
+title:  "PDFs"
+date: 2014-02-26
+last_updated: 2014-02-26
+---
+
 PDF files are popular because they give the author exact control over the look and feel of a document, regardless of the platform on which the end user is viewing the content. Also there are numerous PDF creation tools that integrate with almost any application.
 
 However, PDF documents are very difficult to make accessible. Only a few applications will make a PDF accessible with no additional work. Making a PDF file accessible usually involves using tools in Adobe Acrobat Professional to add accessibility information. The tools are cumbersome and clunky and usually require a significant amount of effort to use. Additionally, if you invest all of the work in making a PDF file accessible, if you later need to go back to your original source document to make changes and create a new PDF file, all of your previous accessibility retrofitting will be lost.

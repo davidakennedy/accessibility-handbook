@@ -1,3 +1,10 @@
+---
+layout: page
+title:  "Internal Links"
+date: 2014-02-26
+last_updated: 2014-02-26
+---
+
 Appendix A - Testing Tools
 
 [![previous](images/left-arrow.png)Link Text or Alt Attribute](http://accessibility.oit.ncsu.edu/training/accessibility-handbook/link-text-alt.html)
@@ -17,11 +24,11 @@ If you want to make a link go to another point on the same page there are two wa
 
 ### Source Code
 
-~~~~ {.code}
+``` {.code}
 <a href="#services">View all of our services</a>
 <p>...</p>
 <h2 id="services">Our Service</h2>
-~~~~
+```
 
 ### Implementation
 
@@ -39,12 +46,12 @@ The name attribute has been deprecated in HTML5 and should not be used.
 
 ### Source Code
 
-~~~~ {.code}
+``` {.code}
 <a href="#services">View all of our services</a>
 <p>...</p>
 <a name="services"></a>
 <h2>Our Service</h2>
-~~~~
+```
 
 ### Implementation
 

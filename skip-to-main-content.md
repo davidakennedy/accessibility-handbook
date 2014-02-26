@@ -1,3 +1,10 @@
+---
+layout: page
+title:  "Skip to Main Content Link"
+date: 2014-02-26
+last_updated: 2014-02-26
+---
+
 Page Contents
 -------------
 
@@ -16,7 +23,7 @@ The text is hidden offscreen in a manner that allows screen reader users to inte
 
 ### Source Code
 
-~~~~ {.code}
+``` {.code}
 a.skip-main {
     left:-999px;
     position:absolute;
@@ -57,7 +64,7 @@ a.skip-main:focus, a.skip-main:active {
   <li>have it link to an internal anchor further down in the page where the main content begins.</li>
   <li>use CSS :focus and :activate to make the skip link visible when the user tabs to it</li>
 </ol>
-~~~~
+```
 
 ### Implementation
 

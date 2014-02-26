@@ -1,3 +1,10 @@
+---
+layout: page
+title:  "Color Contrast"
+date: 2014-02-26
+last_updated: 2014-02-26
+---
+
 Overview
 --------
 

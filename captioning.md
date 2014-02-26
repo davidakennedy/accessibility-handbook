@@ -1,3 +1,10 @@
+---
+layout: page
+title:  "Captioning"
+date: 2014-02-26
+last_updated: 2014-02-26
+---
+
 Creating captions is a three step process.
 
 1.  create a text transcript of the audio portion of the multimedia
@@ -17,9 +24,9 @@ If you want to create a transcript yourself, all you need is a basic text editor
 
 A sample transcript will look like the following.
 
-~~~~ {.code}
+```
 Welcome to this video tutorial on creating captions. We will be learning how to create a transcript and add time stamps to the transcript to create a caption file.
-~~~~
+```
 
 Often people want to use speech recognition software to do this. Except for rare occasions, speech recognition software is not able to produce a transcript accurate enough to be used without significant corrections. It takes longer to correct transcription mistakes than you think. Studies have shown that it is usually cheaper to just pay for a transcription service from the beginning rather than pay for the time it takes to correct a computer generated transcript.
 
@@ -28,7 +35,7 @@ Creating the Time Stamped Transcript
 
 This process can be done manually with specialized software or it can purchased through third-party vendors. Time stamped transcripts come in a variety of formats, but they all basically do the same thing. They tell when each piece of text is supposed to display on the screen. The end result will be something like the following.
 
-~~~~ {.code}
+```
 1
 00:00:00,000 --> 00:00:02,500
 Welcome to this video tutorial on creating captions.
@@ -40,7 +47,7 @@ We will be learning how to create a transcript
 3
 00:00:04,000 --> 00:00:07,000
 and add time stamps to the transcript to create a caption file.
-~~~~
+```
 
 It is important to get your time stamped transcript in a format that your media player can handle. Most captioning software and services can export to a variety of formats.
 

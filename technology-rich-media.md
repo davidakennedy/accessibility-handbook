@@ -1,3 +1,10 @@
+---
+layout: page
+title:  "Rich Media - Multimedia, Flash, Silverlight, Java"
+date: 2014-02-26
+last_updated: 2014-02-26
+---
+
 Within HTML documents there are additional third-party applications or formats that can provide rich content. The three most popular are
 
 -   Video and Audio

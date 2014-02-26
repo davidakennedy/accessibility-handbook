@@ -1,3 +1,10 @@
+---
+layout: page
+title:  "What Accessibility Means"
+date: 2014-02-26
+last_updated: 2014-02-26
+---
+
 To understand what "accessible" means it’s helpful to first look at a broader term that encompasses much of accessibility - universal design.
 
 > Universal Design is the design of products and environments to be usable by all people, to the greatest extent possible, without the need for adaptation or specialized design.

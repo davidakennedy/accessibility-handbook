@@ -1,3 +1,10 @@
+---
+layout: page
+title:  "Link Text Should Not be Too Long"
+date: 2014-02-26
+last_updated: 2014-02-26
+---
+
 Appendix A - Testing Tools
 
 [![previous](images/left-arrow.png)Using Descriptive Link Text](http://accessibility.oit.ncsu.edu/training/accessibility-handbook/link-text-descriptive-target.html)
@@ -15,9 +22,9 @@ Page Contents
 
 ### Source Code
 
-~~~~ {.code}
+``` {.code}
 <p>View examples, watch tutorials, download tools, and check your Web site's  accessibility at the <a href="http://accessibility.oit.ncsu.edu">NC  State IT Accessibility Web site</a></p>
-~~~~
+```
 
 View examples, watch tutorials, download tools, and check your Web site’s accessibility at the [NC State IT Accessibility Web site](http://accessibility.oit.ncsu.edu)
 
@@ -26,9 +33,9 @@ View examples, watch tutorials, download tools, and check your Web site’s acce
 
 ### Source Code
 
-~~~~ {.code}
+``` {.code}
 <p><a href="http://accessibility.oit.ncsu.edu">View examples, watch tutorials, download tools, and check your Web site's accessibility at the NC State IT  Accessibility Web site</a></p>
-~~~~
+```
 
 ### Implementation
 

@@ -1,3 +1,10 @@
+---
+layout: page
+title:  "Accessibility and the Law"
+date: 2014-02-26
+last_updated: 2014-02-26
+---
+
 First, this guide primarily cover accessibility regulations and United States Federal Law. Other countries have different laws, and individual states might have additional requirements beyond Federal law. Also, this document covers these laws at a very high level and only highlights portions of each law.
 
 The applicable laws regarding Web accessibility are as follows.

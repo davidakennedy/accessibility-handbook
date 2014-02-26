@@ -1,3 +1,10 @@
+---
+layout: page
+title:  "Menus"
+date: 2014-02-26
+last_updated: 2014-02-26
+---
+
 Making a site's menu accessible has two basic principles.
 
 -   Make sure the menus, including submenus, can be accessed using only the keyboard.

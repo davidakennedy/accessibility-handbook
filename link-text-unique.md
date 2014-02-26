@@ -1,3 +1,10 @@
+---
+layout: page
+title:  "Link Text Should be Uniquely Identifiable"
+date: 2014-02-26
+last_updated: 2014-02-26
+---
+
 Appendix A - Testing Tools
 
 [![previous](images/left-arrow.png)Length of Link Text](http://accessibility.oit.ncsu.edu/training/accessibility-handbook/link-text-length.html)
@@ -20,7 +27,7 @@ The link text should be unique among all of the links on the page, or alternativ
 
 ### Source Code
 
-~~~~ {.code}
+``` {.code}
 .offscreen {
 position:absolute;
 left:-999px;
@@ -30,7 +37,7 @@ top:auto;
 }
 
 <p><a href="#">Read more <span class="offscreen">About NC State</span></a></p>
-~~~~
+```
 
 ### Implementation
 
@@ -43,9 +50,9 @@ This demonstrates the correct implementation where the non-unique or non-fully-d
 
 ### Source Code
 
-~~~~ {.code}
+``` {.code}
 <p>How should you display the parts of a form that are read-only? There are three main implementations that I have seen, and unfortunately the accessible version is the one I’ve seen used the least. <a href="file.html">[Read more...]</a></p>
-~~~~
+```
 
 ### Implementation
 
@@ -58,10 +65,10 @@ This demonstrates the **incorrect** implementation where the non-unique or non-f
 
 ### Source Code
 
-~~~~ {.code}
+``` {.code}
 <p>How should you display the parts of a form that are read-only? There are three main implementations that I have seen, and unfortunately the accessible version is the one I’ve seen used the least.</p>
 <p><a href="file.html">[Read more...]</a></p>
-~~~~
+```
 
 ### Implementation
 
@@ -107,7 +114,7 @@ This demonstrates the **correct** implementation where the link text is paired w
 
 ### Source Code
 
-~~~~ {.code}
+``` {.code}
 <ul>
   <li>Annual Report 2005-2006
   <ul>
@@ -124,7 +131,7 @@ This demonstrates the **correct** implementation where the link text is paired w
   </ul>
   </li>
 </ul>
-~~~~
+```
 
 ### Implementation
 

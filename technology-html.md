@@ -1,3 +1,10 @@
+---
+layout: page
+title:  "HTML"
+date: 2014-02-26
+last_updated: 2014-02-26
+---
+
 HTML and its related technologies, like XHTML and CSS, offer the most flexibility in terms of support on different devices and platforms and support for people with disabilities.
 
 -   It is viewable on a multitude of devices.

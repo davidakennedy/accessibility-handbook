@@ -1,3 +1,10 @@
+---
+layout: page
+title:  "Tables"
+date: 2014-02-26
+last_updated: 2014-02-26
+---
+
 Appendix A - Testing Tools
 
 [![previous](images/left-arrow.png)Lists](http://accessibility.oit.ncsu.edu/training/accessibility-handbook/lists.html)
@@ -27,7 +34,7 @@ Caption
 
 The caption element identifies the table. It can be thought of as a title or a heading for a table.
 
-~~~~ {.code}
+``` {.code}
 <table>
   <caption>Schedule for the week of March 6</caption>
   <tr>
@@ -46,7 +53,7 @@ The caption element identifies the table. It can be thought of as a title or a h
 
 </table>
             
-~~~~
+```
 
 Summary
 -------
@@ -56,7 +63,7 @@ The summary can perform two different functions. It is allowable to have the sum
 -   it can describe the layout of the table to help screen reader users know how to navigate the table
 -   it can describe in narrative form what information the table is trying to convey
 
-~~~~ {.code}
+``` {.code}
 <table summary="Schedule for Route 7 going downtown. Service begins 
 at 4:00 AM and ends at midnight. Intersections are listed in the top row. 
 Find the intersection closest to your starting point or destination, then read 
@@ -75,14 +82,14 @@ down that column to find out what time the bus leaves that intersection.">
   </tr>
   …
 </table>
-~~~~
+```
 
 ![Good Technique](images/checkmark-small.png "Good Technique")A simple data table with column and row headings
 --------------------------------------------------------------------------------------------------------------
 
 ### Source Code
 
-~~~~ {.code}
+``` {.code}
 <table border="1" summary="Pizza sizes are listed in the first row. Types of pizza are listed in the first column. Cross-reference them to determine the price of the pizza.">
   <caption>Pizza Prices</caption>
   <tr>
@@ -110,7 +117,7 @@ down that column to find out what time the bus leaves that intersection.">
     <td>$14</td>
   </tr>
 </table>
-~~~~
+```
 
 ### Implementation
 
@@ -153,7 +160,7 @@ Pepperoni
 
 ### Source Code
 
-~~~~ {.code}
+``` {.code}
 <table border="1" summary="Pizza toppings are listed in the first two rows. Sizes of pizza are listed in the first column. Cross reference them to determine the price of each topping.">
   <caption>Topping Prices</caption>
   <tr>
@@ -198,7 +205,7 @@ Pepperoni
     <td headers="veg tom lg">$1.00</td>
   </tr>
 </table>
-~~~~
+```
 
 ### Implementation
 
@@ -271,7 +278,7 @@ Large
 
 ### Source Code
 
-~~~~ {.code}
+``` {.code}
 <table width="100%" border="0">
   <tr>
     <td colspan="2" bgcolor="#c00"><h1 style="color:#fff">Website Logo</h1></td>
@@ -293,7 +300,7 @@ Large
     <td colspan="2" align="center" height="20" bgcolor="#000"><p style="color:#fff">Contact Info</p></td>
   </tr>
 </table>
-~~~~
+```
 
 ### Implementation
 
@@ -318,7 +325,7 @@ Contact Info
 
 ### Source Code
 
-~~~~ {.code}
+``` {.code}
 <table border="1">
   <tr>
     <td>&nbsp;</td>
@@ -345,7 +352,7 @@ Contact Info
     <td>$14</td>
   </tr>
 </table>
-~~~~
+```
 
 ### Implementation
 
@@ -362,7 +369,7 @@ When you add the summary attribute to a layout table, screen reader users will h
 
 ### Source Code
 
-~~~~ {.code}
+``` {.code}
 <table width="100%" border="0" summary="a layout table">
   <tr>
     <td colspan="2" bgcolor="#c00"><h1 style="color:#fff">Website Logo</h1></td>
@@ -384,7 +391,7 @@ When you add the summary attribute to a layout table, screen reader users will h
     <td colspan="2" align="center" height="20" bgcolor="#000"><p style="color:#fff">Contact Info</p></td>
   </tr>
 </table>
-~~~~
+```
 
 ### Implementation
 

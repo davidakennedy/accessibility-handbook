@@ -1,3 +1,10 @@
+---
+layout: page
+title:  "Link Behavior"
+date: 2014-02-26
+last_updated: 2014-02-26
+---
+
 Captioning Appendix A - Testing Tools
 
 [![previous](images/left-arrow.png)Internal Links](http://accessibility.oit.ncsu.edu/training/accessibility-handbook/link-internal.html)
@@ -23,9 +30,9 @@ At its heart, a link connects two Web resources. It has two ends with an explici
 
 ### Source Code
 
-~~~~ {.code}
+``` {.code}
 <a href="http://www.ncsu.edu">NC State University</a>
-~~~~
+```
 
 ### Implementation
 
@@ -44,9 +51,9 @@ The most common example of using links for other purposes is using JavaScript to
 
 ### Source Code
 
-~~~~ {.code}
+``` {.code}
 <a onclick="alert('something');">Do something</a>
-~~~~
+```
 
 Developers would really like this because it gets rid of the action of going to another page through the href attribute, but it allows us to perform other actions on the page, and we get all of the other benefits of links like being clickable. However, we encounter a few problems.
 
@@ -67,9 +74,9 @@ In this instance the hash character is used to tell the browser to go to an unna
 
 ### Source Code
 
-~~~~ {.code}
+``` {.code}
 <a href="#" onclick="alert('something');">Do something</a>
-~~~~
+```
 
 Here are the problems with this implementation.
 
@@ -89,9 +96,9 @@ In this instance, a javascript action is fired when the link is clicked in place
 
 ### Source Code
 
-~~~~ {.code}
+``` {.code}
 <a href="javascript:alert('something');">Do something</a>
-~~~~
+```
 
 Here are the problems with this implementation.
 
@@ -111,9 +118,9 @@ This implementation borders on comical. An anchor element is chosen because it w
 
 ### Source Code
 
-~~~~ {.code}
+``` {.code}
 <a href="javascript:void(0)" onclick="alert('something');">Do something</a>
-~~~~
+```
 
 Here are the problems with this implementation.
 
@@ -134,9 +141,9 @@ If you want to have the user click on an item within a page and have some action
 
 ### Source Code
 
-~~~~ {.code}
+``` {.code}
 <input type="button" value="Do Something" onClick="alert('something');">
-~~~~
+```
 
 ### Implementation
 
@@ -147,7 +154,7 @@ This instance is identical to the previous one except it uses CSS to customize t
 
 ### Source Code
 
-~~~~ {.code}
+``` {.code}
 <style>
 .something-button {
   border-top: 2px solid #e00;
@@ -168,7 +175,7 @@ This instance is identical to the previous one except it uses CSS to customize t
 </style>
 
 <input class="something-button" type="button" value="Do Something" onClick="alert('something');">
-~~~~
+```
 
 ### Implementation
 
@@ -181,7 +188,7 @@ In this case it starts with a basic link which takes you to another page where t
 
 ### Source Code
 
-~~~~ {.code}
+``` {.code}
 <p id="something" ><a href="something.html">Do Something</a></p>
 <script type="text/javascript">
   (function(){
@@ -199,7 +206,7 @@ In this case it starts with a basic link which takes you to another page where t
     }
   })();
 </script>
-~~~~
+```
 
 ### Implementation
 

@@ -1,3 +1,10 @@
+---
+layout: page
+title:  "Multiple Ways to Find Content"
+date: 2014-02-26
+last_updated: 2014-02-26
+---
+
 It is important to provide users multiple ways of discovering content on your site. Some users may start at your home page and see where the links take them, while others may use your menu structure, while still others will use a search feature.
 
 You need to provide at least two ways to navigate your site. The possibilities include the following.

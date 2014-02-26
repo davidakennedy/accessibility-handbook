@@ -1,3 +1,10 @@
+---
+layout: page
+title:  "Links and New Windows"
+date: 2014-02-26
+last_updated: 2014-02-26
+---
+
 Captioning Appendix A - Testing Tools
 
 [![previous](images/left-arrow.png)Links Overview](http://accessibility.oit.ncsu.edu/training/accessibility-handbook/links.html)
@@ -29,9 +36,9 @@ There are a number of solutions to this problem.
 
 ### Source Code
 
-~~~~ {.code}
+``` {.code}
 <a href="http://accessibility.oit.ncsu.edu" target="_blank">NC State IT Accessibility (new window)</a>
-~~~~
+```
 
 ### Implementation
 
@@ -42,9 +49,9 @@ There are a number of solutions to this problem.
 
 ### Source Code
 
-~~~~ {.code}
+``` {.code}
 <a href="http://accessibility.oit.ncsu.edu" target="_blank">NC State IT Accessibility <img src="images/new-window.jpg" alt="opens in new window"></a>
-~~~~
+```
 
 ### Implementation
 
@@ -55,7 +62,7 @@ There are a number of solutions to this problem.
 
 ### Source Code
 
-~~~~ {.code}
+``` {.code}
 a.ncsu-a11y-link-new-window img {
     border: 0 none;
 }
@@ -83,7 +90,7 @@ a.ncsu-a11y-link-new-window:hover span, a.ncsu-a11y-link-new-window:focus span, 
 
 <a target="_blank" href="http://www.ncsu.edu" class="ncsu-a11y-link-new-window">External link<span><img alt="opens in a new window" src="images/new-window.jpg"></span></a>
                 
-~~~~
+```
 
 ### Implementation
 
@@ -94,9 +101,9 @@ a.ncsu-a11y-link-new-window:hover span, a.ncsu-a11y-link-new-window:focus span, 
 
 ### Source Code
 
-~~~~ {.code}
+``` {.code}
 <a href="http://accessibility.oit.ncsu.edu" target="_blank">NC State IT Accessibility</a>
-~~~~
+```
 
 ### Implementation
 

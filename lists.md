@@ -1,3 +1,10 @@
+---
+layout: page
+title:  "Lists"
+date: 2014-02-26
+last_updated: 2014-02-26
+---
+
 Appendix A - Testing Tools
 
 [![previous](images/left-arrow.png)ARIA Landmarks](http://accessibility.oit.ncsu.edu/training/accessibility-handbook/aria-landmarks.html)
@@ -17,12 +24,12 @@ It is important to use list elements when denoting a list of items. When sighted
 
 ### Source Code
 
-~~~~ {.code}
+``` {.code}
 * milk
 * bread
 * butter
 * flour
-~~~~
+```
 
 ### Implementation
 
@@ -38,14 +45,14 @@ However, when a screen reader user heard this, they will hear "star milk, star b
 
 ### Source Code
 
-~~~~ {.code}
+``` {.code}
 <ul>
   <li>milk</li>
   <li>bread</li>
   <li>butter</li>
   <li>flour</li>
 </ul>
-~~~~
+```
 
 ### Implementation
 

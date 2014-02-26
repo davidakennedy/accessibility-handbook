@@ -1,3 +1,10 @@
+---
+layout: page
+title:  "All Links must Contain either Text or an image with Alt Text"
+date: 2014-02-26
+last_updated: 2014-02-26
+---
+
 Appendix A - Testing Tools
 
 [![previous](images/left-arrow.png)Links Opening in New Windows](http://accessibility.oit.ncsu.edu/training/accessibility-handbook/link-new-window.html)
@@ -20,9 +27,9 @@ In order for a link to be readable by screen reader users links must all contain
 
 ### Source Code
 
-~~~~ {.code}
+``` {.code}
 <a href="#">Get Help</a>
-~~~~
+```
 
 ### Implementation
 
@@ -35,9 +42,9 @@ In this case, screen readers will announce the alt attribute to the user.
 
 ### Source Code
 
-~~~~ {.code}
+``` {.code}
 <a href="#"><img src="images/get-help.jpg" alt="Get Help"></a>
-~~~~
+```
 
 ### Implementation
 
@@ -50,9 +57,9 @@ In this case screen reader users will not know the function of this link.
 
 ### Source Code
 
-~~~~ {.code}
+``` {.code}
 <a href="#"><img src="images/get-help.jpg" alt=""></a>
-~~~~
+```
 
 ### Implementation
 
@@ -65,9 +72,9 @@ In this case screen reader users will not know the function of this link.
 
 ### Source Code
 
-~~~~ {.code}
+``` {.code}
 <a href="#"><img src="images/get-help.jpg"></a>
-~~~~
+```
 
 ### Implementation
 
@@ -80,9 +87,9 @@ Screen reader support for reading the title attribute for descriptions of images
 
 ### Source Code
 
-~~~~ {.code}
+``` {.code}
 <a href="#"><img src="images/get-help.jpg" title="Get Help"></a>
-~~~~
+```
 
 ### Implementation
 

@@ -1,3 +1,10 @@
+---
+layout: page
+title:  "Don't Remove the Underline from Links"
+date: 2014-02-26
+last_updated: 2014-02-26
+---
+
 Appendix A - Testing Tools
 
 [![previous](images/left-arrow.png)URL Text](http://accessibility.oit.ncsu.edu/training/accessibility-handbook/link-text-url.html)
@@ -16,7 +23,7 @@ In general you do not want to remove the underline formatting from links. Underl
 
 ### Source Code
 
-~~~~ {.code}
+``` {.code}
 a:link {text-decoration:none;}
 a:visited {text-decoration:none;}
-~~~~
+```

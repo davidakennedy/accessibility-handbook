@@ -1,3 +1,10 @@
+---
+layout: page
+title:  "Language"
+date: 2014-02-26
+last_updated: 2014-02-26
+---
+
 Appendix A - Testing Tools
 
 [![previous](images/left-arrow.png)Basics Overview](http://accessibility.oit.ncsu.edu/training/accessibility-handbook/basics-overview.html)
@@ -7,18 +14,18 @@ Appendix A - Testing Tools
 Page Contents
 -------------
 
--   [![Good Technique](images/checkmark-small.png "Good Technique")Defining the language for an HTML5 or HTML 4 document](#1)
--   [![Good Technique](images/checkmark-small.png "Good Technique")Defining the language for an XHTML document](#2)
--   [![Good Technique](images/checkmark-small.png "Good Technique")Defining multiple languages within a document with one predominant language](#3)
--   [![Good Technique](images/checkmark-small.png "Good Technique")Defining multiple languages within a document with the quantity of each language being roughly equally](#4)
--   [![Bad Technique](images/x-small.png "Bad Technique")Not defining the language of the document](#5)
--   [![Bad Technique](images/x-small.png "Bad Technique")Simply defining the language of the doctype](#6)
+- [![Good Technique](images/checkmark-small.png "Good Technique")Defining the language for an HTML5 or HTML 4 document](#1)
+- [![Good Technique](images/checkmark-small.png "Good Technique")Defining the language for an XHTML document](#2)
+- [![Good Technique](images/checkmark-small.png "Good Technique")Defining multiple languages within a document with one predominant language](#3)
+- [![Good Technique](images/checkmark-small.png "Good Technique")Defining multiple languages within a document with the quantity of each language being roughly equally](#4)
+- [![Bad Technique](images/x-small.png "Bad Technique")Not defining the language of the document](#5)
+- [![Bad Technique](images/x-small.png "Bad Technique")Simply defining the language of the doctype](#6)
 
 Defining the language of the document allows the following.
 
--   Text-to-speech engines, like screen readers, know how to read the text
--   Spell checkers know what language to use
--   Text styling
+- Text-to-speech engines, like screen readers, know how to read the text
+- Spell checkers know what language to use
+- Text styling
 
 Here is a demonstration of how a screen reader user experiences a document without language attributes.
 
@@ -27,25 +34,25 @@ Here is a demonstration of how a screen reader user experiences a document witho
 
 ### Source Code
 
-~~~~ {.code}
+```
 <html lang="en-US">
-~~~~
+```
 
 ![Good Technique](images/checkmark-small.png "Good Technique")Defining the language for an XHTML document
 ---------------------------------------------------------------------------------------------------------
 
 ### Source Code
 
-~~~~ {.code}
+```
 <html lang="en" xml:lang="en" xmlns= "http://www.w3.org/1999/xhtml">
-~~~~
+```
 
 ![Good Technique](images/checkmark-small.png "Good Technique")Defining multiple languages within a document with one predominant language
 -----------------------------------------------------------------------------------------------------------------------------------------
 
 ### Source Code
 
-~~~~ {.code}
+```
 <!doctype html>
 <html lang="en-US">
   <head>
@@ -58,14 +65,14 @@ Here is a demonstration of how a screen reader user experiences a document witho
     <p lang="fr">Une petite quantité de texte en français...</p>
   </body> 
 </html>
-~~~~
+```
 
 ![Good Technique](images/checkmark-small.png "Good Technique")Defining multiple languages within a document with the quantity of each language being roughly equally
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Source Code
 
-~~~~ {.code}
+```
 <!doctype html>
 <html>
   <head>
@@ -83,7 +90,7 @@ Here is a demonstration of how a screen reader user experiences a document witho
     </div> 
   </body> 
 </html>
-~~~~
+```
 
 ![Bad Technique](images/x-small.png "Bad Technique")Not defining the language of the document.
 ----------------------------------------------------------------------------------------------
@@ -92,7 +99,7 @@ If you do not define the language of the page, the user agent will default to us
 
 ### Source Code
 
-~~~~ {.code}
+```
 <!doctype html>
 <html>
   <head>
@@ -105,7 +112,7 @@ If you do not define the language of the page, the user agent will default to us
     <p>Une petite quantité de texte en français...</p>
   </body> 
 </html>
-~~~~
+```
 
 ![Bad Technique](images/x-small.png "Bad Technique")Simply defining the language of the doctype.
 ------------------------------------------------------------------------------------------------
@@ -114,9 +121,9 @@ Defining the language in the doctype declaration simply defines the language of 
 
 ### Source Code
 
-~~~~ {.code}
+```
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-~~~~
+```
 
 Further Reading
 ---------------

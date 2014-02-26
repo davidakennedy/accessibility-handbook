@@ -1,3 +1,10 @@
+---
+layout: page
+title:  "Timed Events"
+date: 2014-02-26
+last_updated: 2014-02-26
+---
+
 In general, time limits should not be imposed on activities unless the activity by its nature requires a time limit.
 
 Some users with disabilities may need more time to complete an activity that has a time limit on it.

@@ -1,3 +1,10 @@
+---
+layout: page
+title:  "Mouse and Keyboard Events"
+date: 2014-02-26
+last_updated: 2014-02-26
+---
+
 Overview
 --------
 

@@ -1,3 +1,10 @@
+---
+layout: page
+title:  "Americans with Disabilities Act"
+date: 2014-02-26
+last_updated: 2014-02-26
+---
+
 The ADA is currently being updated. It will most likely require all public and private entities to make their Web sites adhere to the equivalent of WCAG 2 Level AA conformance.
 
 The Americans with Disabilities Act of 1990 guarantees certain rights to people with disabilities in three main areas.

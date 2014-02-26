@@ -1,3 +1,10 @@
+---
+layout: default
+title:  "Accessibility Handbook"
+date: 2014-02-26
+last_updated: 2014-02-26
+---
+
 This handbook is designed to give Web developers a way to approach designing accessible Web pages. Instead of simply being a checklist, it will guide you through ways of thinking about Web design in logical divisions.
 
 This is a work in progress. If something is unclear to you or if you have suggestions, please [email Greg Kraus](mailto:gdkraus@ncsu.edu).

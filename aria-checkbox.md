@@ -1,3 +1,10 @@
+---
+layout: page
+title:  "ARIA Checkbox"
+date: 2014-02-26
+last_updated: 2014-02-26
+---
+
 Alternative Text Captioning Appendix A - Testing Tools
 
 [![previous](images/left-arrow.png)Timed Events](http://accessibility.oit.ncsu.edu/training/accessibility-handbook/timed-events.html)
@@ -11,10 +18,10 @@ Starting Point: A simple checkbox
 
 Normally when we want a checkbox we use code similar to the following to place one on the page.
 
-~~~~ {.code}
+```
 <input id="signup" type="checkbox" />
 <label for="signup">Sign me up!</label>
-~~~~
+```
 
 ### Implementation
 
@@ -27,9 +34,9 @@ Step 1: The plain text
 
 To start off with, we are just going to use some plain text in a \<div\> as the basis for our custom checkbox.
 
-~~~~ {.code}
+```
 <div>Sign me up!</div>
-~~~~
+```
 
 ### Implementation
 
@@ -40,9 +47,9 @@ Step 2: Introducing the "role"
 
 Right now it is just plain text and does nothing special when we click on it. There is an ARIA role for checkbox. Perhaps if we just say role="checkbox" it will magically turn into a checkbox.
 
-~~~~ {.code}
+```
 <div role="checkbox">Sign me up!</div>
-~~~~
+```
 
 ### Implementation
 
@@ -61,7 +68,7 @@ Step 3: Adding the checkbox
 
 The first step is to add an image to make it look a little more like checkbox.
 
-~~~~ {.code}
+```
 <style>
 .checkbox {
   background-image:url('images/checkbox-unchecked.gif');
@@ -72,7 +79,7 @@ The first step is to add an image to make it look a little more like checkbox.
 </style>
 
 <div role="checkbox" class="checkbox">Sign me up!</div>
-~~~~
+```
 
 ### Implementation
 
@@ -83,21 +90,21 @@ Step 4: Storing the state of the checkbox
 
 Now we need some way to store the value of the ckeckbox. If it were a standard checkbox we could just query the object to find its state with something like
 
-~~~~ {.code}
+```
 document.getElementById("myCheckBox").checked
-~~~~
+```
 
 But since it's not a standard checkbox it doesn't have that property.
 
 We could introduce a new attribute like isChecked and just query that.
 
-~~~~ {.code}
+```
 <div role="checkbox" isChecked="false" class="checkbox">Sign me up!</div>
-~~~~
+```
 
 But browsers and screen readers don't know what the attribute "isChecked" means, so they wouldn't know what to do with it. Fortunately ARIA does provide a property called aria-checked which browsers and screen readers do know how to handle. Implementing it is very straightforward.
 
-~~~~ {.code}
+```
 <style>
 .checkbox {
   background-image:url('images/checkbox-unchecked.gif');
@@ -109,7 +116,7 @@ But browsers and screen readers don't know what the attribute "isChecked" means,
 
 
 <div role="checkbox" aria-checked="false" class="checkbox">Sign me up!</div>
-~~~~
+```
 
 ### Implementation
 
@@ -122,7 +129,7 @@ Step 5: Responding to clicks
 
 Of course, the checkbox still doesn't do anything. We need to make it so when a user clicks on it it will actually appear to be checked. This is simple with some JavaScript and CSS.
 
-~~~~ {.code}
+```
 <style>
 .checkbox {
   background-image:url('images/checkbox-unchecked.gif');
@@ -146,7 +153,7 @@ function toggleCheckBox(t) {
 </script>
 
 <div role="checkbox" aria-checked="false" class="checkbox" onclick="toggleCheckBox(this);">Sign me up!</div>
-~~~~
+```
 
 Notice, in addition to changing the image when a user clicks on it, we also change the value of "aria-checked". That way screen reader users will be able to determine the new state of the checkbox.
 
@@ -165,7 +172,7 @@ Second, we need to respond to keyboard events when users press the space bar whe
 
 ### Source Code
 
-~~~~ {.code}
+```
 <style>
 .checkbox {
   background-image:url('images/checkbox-unchecked.gif');
@@ -195,7 +202,7 @@ function toggleCheckBox(t) {
 </script>
 
 <div role="checkbox" aria-checked="false" class="checkbox" onclick="toggleCheckBox(this);" onclick="toggleCheckBox(this);" tabindex="0">Sign me up!</div>
-~~~~
+```
 
 ### Implementation
 

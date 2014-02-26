@@ -1,3 +1,10 @@
+---
+layout: page
+title:  "Overview of Technologies and Formats"
+date: 2014-02-26
+last_updated: 2014-02-26
+---
+
 Different technologies and document formats offer varying levels of accessibility and ease of access for all users. Some issues to consider for each technology and document format are the following.
 
 -   How much accessibility support is built-in?
