@@ -27,7 +27,7 @@ In order for a link to be readable by screen reader users links must all contain
 
 ### Source Code
 
-``` {.code}
+```
 <a href="#">Get Help</a>
 ```
 
@@ -42,7 +42,7 @@ In this case, screen readers will announce the alt attribute to the user.
 
 ### Source Code
 
-``` {.code}
+```
 <a href="#"><img src="images/get-help.jpg" alt="Get Help"></a>
 ```
 
@@ -57,7 +57,7 @@ In this case screen reader users will not know the function of this link.
 
 ### Source Code
 
-``` {.code}
+```
 <a href="#"><img src="images/get-help.jpg" alt=""></a>
 ```
 
@@ -72,7 +72,7 @@ In this case screen reader users will not know the function of this link.
 
 ### Source Code
 
-``` {.code}
+```
 <a href="#"><img src="images/get-help.jpg"></a>
 ```
 
@@ -87,7 +87,7 @@ Screen reader support for reading the title attribute for descriptions of images
 
 ### Source Code
 
-``` {.code}
+```
 <a href="#"><img src="images/get-help.jpg" title="Get Help"></a>
 ```
 

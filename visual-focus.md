@@ -27,7 +27,7 @@ By default, the browser will always show a focus ring around an object that is k
 
 This makes it so elements that can receive the keyboard focus do not have a focus ring around them when the user tabs to it. This makes it very difficult for non-mouse users to know where they are on the page.
 
-``` {.code}
+```
 <style>
   :focus {outline:none;}
 </style>
@@ -40,7 +40,7 @@ The solution is very simple. You simply need to either not override the default 
 
 If you need to correct the issue, you can explicitly set the focus style to make it whatever style you want.
 
-``` {.code}
+```
 <style>
   :focus {outline:2px solid #f00;}
 </style>
@@ -51,7 +51,7 @@ Also, be sure you don't have any overridden focus rules on objects like links.
 ![Bad Technique](images/x-small.png "Bad Technique")Overriding the focus for specifically focusable elements, like links
 ------------------------------------------------------------------------------------------------------------------------
 
-``` {.code}
+```
 <style>
   a:focus {outline:none;}
 </style>

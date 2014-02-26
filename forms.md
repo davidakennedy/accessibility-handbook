@@ -138,7 +138,7 @@ For a single checkbox you simply need to attach the label to the input element.
 
 ### Source Code
 
-``` {.code}
+```
 <input id="sendemail" type="checkbox" name="sendemail" value="sendemail" />
 <label for="sendemail">Send me email updates.</label>
 ```
@@ -154,7 +154,7 @@ When you have a collection of related check boxes you need to include them in a 
 
 ### Source Code
 
-``` {.code}
+```
 <fieldset>
   <legend>Select your days of availability:</legend>
   <input id="monday" type="checkbox" name="availability" value="monday" />
@@ -179,7 +179,7 @@ To make a radio button accessible you first need to attach the label to the inpu
 
 ### Source Code
 
-``` {.code}
+```
 <fieldset>
 <legend>Payment Method</legend>
 <input id="cash" type="radio" name="payment" value="cash" />
@@ -204,7 +204,7 @@ To make a select menu accessible you simply need to attach the label to the inpu
 
 ### Source Code
 
-``` {.code}
+```
 <label for="color">Choose the color you want</label>
   <select id="color" name="select">
   <option value="1">Green</option>
@@ -224,7 +224,7 @@ It is possible to make a menu that allows multiple selections by adding the attr
 
 ### Source Code
 
-``` {.code}
+```
 <label for="color2">Choose the colors you want</label><br />
   <select id="color2" multiple="multiple" name="select">
   <option value="1">Green</option>
@@ -242,7 +242,7 @@ Choose the colors you want
 
 ### Source Code
 
-``` {.code}
+```
 <fieldset>
   <legend>Choose the colors you want</legend>
   <input id="green" name="colorcheckbox" type="checkbox" value="green" /><label for="green">Green</label><br />
@@ -264,7 +264,7 @@ Many times select menus are turned into "jump menus" by executing some JavaScrip
 
 ### Source Code
 
-``` {.code}
+```
 <label for="menu">Go to the Web Site:</label>
 <select id="menu" name="menu">
   <option value="http://www.ncsu.edu/" selected="">NC State University</option>
@@ -285,7 +285,7 @@ To make a text area accessible you simply need to attach the label to the input 
 
 ### Source Code
 
-``` {.code}
+```
 <label for="feedback">Please leave your feedback:</label><br />
 <textarea id="feedback" name="feedback"></textarea>
 ```
@@ -301,7 +301,7 @@ Buttons are inherently accessible as long as the you provide an appropriate valu
 
 ### Source Code
 
-``` {.code}
+```
 <input type="submit" name="submit" value="Submit this form" />
 ```
 
@@ -314,7 +314,7 @@ If you use an image button make sure the alt attribute is set appropriately.
 
 ### Source Code
 
-``` {.code}
+```
 <input type="image" name="submitbutton" src="images/submit-this-form-button.jpg" alt="Submit this form" />
 ```
 
@@ -327,7 +327,7 @@ Some screen readers have built enough logic into their form parsing algorithms t
 
 ### Source Code
 
-``` {.code}
+```
 <p>First Name: <input name="first-name" type="text" /></p>
 ```
 
@@ -342,7 +342,7 @@ When you set up a select menu to automatically fire an action once the selection
 
 ### Source Code
 
-``` {.code}
+```
 <label for="menu">Go to the Web Site:</label>
 <select id="bad-jump-menu" name="menu" onChange="location= document.getElementById('bad-jump-menu').options[ document.getElementById('bad-jump-menu').selectedIndex].value;">
   <option value="#" selected=""></option>
@@ -363,7 +363,7 @@ If your image button does not contain alternative text in the alt attribute, scr
 
 ### Source Code
 
-``` {.code}
+```
 <input type="image" name="submitbutton" src="images/submit-this-form-button.jpg" />
 ```
 

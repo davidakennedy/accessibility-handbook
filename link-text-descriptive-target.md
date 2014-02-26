@@ -25,7 +25,7 @@ The link text should be descriptive of its target location. Do not use “click 
 
 ### Source Code
 
-``` {.code}
+```
 Find out more information at the <a href="http://accessibility.oit.ncsu.edu">NC State IT  Accessibility</a> home page.
 ```
 
@@ -38,7 +38,7 @@ Find out more information at the [NC State IT Accessibility](http://accessibilit
 
 ### Source Code
 
-``` {.code}
+```
 <a href="http://accessibility.oit.ncsu.edu">Click here</a> to find out more information at the NC State  IT Accessibility home page.
 ```
 
@@ -51,7 +51,7 @@ Find out more information at the [NC State IT Accessibility](http://accessibilit
 
 ### Source Code
 
-``` {.code}
+```
 <a href="http://accessibility.oit.ncsu.edu">Click here to find out more information at the NC State  IT Accessibility home page.</a>
 ```
 

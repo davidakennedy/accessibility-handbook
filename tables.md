@@ -34,7 +34,7 @@ Caption
 
 The caption element identifies the table. It can be thought of as a title or a heading for a table.
 
-``` {.code}
+```
 <table>
   <caption>Schedule for the week of March 6</caption>
   <tr>
@@ -63,7 +63,7 @@ The summary can perform two different functions. It is allowable to have the sum
 -   it can describe the layout of the table to help screen reader users know how to navigate the table
 -   it can describe in narrative form what information the table is trying to convey
 
-``` {.code}
+```
 <table summary="Schedule for Route 7 going downtown. Service begins 
 at 4:00 AM and ends at midnight. Intersections are listed in the top row. 
 Find the intersection closest to your starting point or destination, then read 
@@ -89,7 +89,7 @@ down that column to find out what time the bus leaves that intersection.">
 
 ### Source Code
 
-``` {.code}
+```
 <table border="1" summary="Pizza sizes are listed in the first row. Types of pizza are listed in the first column. Cross-reference them to determine the price of the pizza.">
   <caption>Pizza Prices</caption>
   <tr>
@@ -160,7 +160,7 @@ Pepperoni
 
 ### Source Code
 
-``` {.code}
+```
 <table border="1" summary="Pizza toppings are listed in the first two rows. Sizes of pizza are listed in the first column. Cross reference them to determine the price of each topping.">
   <caption>Topping Prices</caption>
   <tr>
@@ -278,7 +278,7 @@ Large
 
 ### Source Code
 
-``` {.code}
+```
 <table width="100%" border="0">
   <tr>
     <td colspan="2" bgcolor="#c00"><h1 style="color:#fff">Website Logo</h1></td>
@@ -325,7 +325,7 @@ Contact Info
 
 ### Source Code
 
-``` {.code}
+```
 <table border="1">
   <tr>
     <td>&nbsp;</td>
@@ -369,7 +369,7 @@ When you add the summary attribute to a layout table, screen reader users will h
 
 ### Source Code
 
-``` {.code}
+```
 <table width="100%" border="0" summary="a layout table">
   <tr>
     <td colspan="2" bgcolor="#c00"><h1 style="color:#fff">Website Logo</h1></td>
