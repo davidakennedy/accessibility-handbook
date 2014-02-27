@@ -1,27 +1,14 @@
 <aside>
   <p class="intro">{{ site.subtitle }}</p>
-  <nav id="menu" class="menu" role="navigation">
-    <ul>
-      {% for link in site.navigation %}
-        {% if link.internal == true %}
-          <li><a href="{{ site.baseurl }}/{{ link.url }}">{{ link.text }}</a></li>
-        {% else %}
-          <li><a href="{{ link.url }}">{{ link.text }}</a></li>
-        {% endif %}
-      {% endfor %}
-    </ul>
+  <nav id="main-nav" class="main-nav" role="navigation">
       <ul>
-        {% for category in site.categories %}
-          <li><a name="{{ category | first }}">{{ category | first }}</a>
-            <ul>
-            {% for posts in category %}
-              {% for post in posts %}
-                <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-              {% endfor %}
-            {% endfor %}
-            </ul>
-          </li>
+        {% for link in site.mainnav %}
+          {% if link.internal == true %}
+            <li{% if link.text == page.category %} class="main-nav-active"{% endif %}><a href="{{ site.baseurl }}/{{ link.url }}">{{ link.text }}</a></li>
+          {% else %}
+            <li{% if link.text == page.category %} class="main-nav-active"{% endif %}><a href="{{ link.url }}">{{ link.text }}</a></li>
+          {% endif %}
         {% endfor %}
       </ul>
-  </nav>
+    </nav>
 </aside>

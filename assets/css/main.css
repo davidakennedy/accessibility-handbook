@@ -160,12 +160,6 @@ Navigation
 ==================================
 */
 
- .panel {
-    position: fixed;
-    left: -15.625em; /*right or left and the width of your navigation panel*/
-    width: 15.625em; /*should match the above value*/
-}
-
  nav a {
     display: block;
     padding: .5em 0;

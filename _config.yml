@@ -4,19 +4,19 @@ markdown: redcarpet
 pygments: true
 
 # Title
-name: DOCter
-subtitle: A Jekyll template for project documentation
+name: Accessibbility Handbook
+subtitle: Resources to help web developers build accessible sites.
 
 # When using this template with a project page set the baseurl to '/project-name'
 # For user/organization pages set this to an empty string
 # When working locally use jekyll serve --baseurl '' so that you can view everything at localhost:4000
 # See http://jekyllrb.com/docs/github-pages/ for more info
 #baseurl: ''
-baseurl: '/DOCter'
+baseurl: '/accessibbility-handbook'
 
 # Author/Organization info to be displayed in the templates
-author:
-  name: Name
+author: 
+  name: Greg Kraus
   url: http://localhost:4000
 
 # Point the logo URL at a file in your repo or hosted elsewhere by your organization
@@ -25,8 +25,8 @@ logoalt:
 
 # Navigation
 # List links that should appear in the site sidebar here
-navigation:
-- text: Designing for Accessibility
+mainnav:
+- text: What is Required
   url: index.html
   internal: true
 - text: Content Formats
